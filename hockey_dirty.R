@@ -1,4 +1,6 @@
 library(tidyverse)
+library(DBI)
+library(RPostgres)
 
 ## IMPORT DATA -----------------------------------------------------------------
 
@@ -73,3 +75,15 @@ nhl %>%
 cor.test(nhl$weight_in_kilograms, nhl$age_at_season)
 cor.test(nhl$height_in_centimeters, nhl$age_at_season)
 cor.test(nhl$height_in_centimeters, nhl$weight_in_kilograms)  
+
+con <- dbConnect(
+	RPostgres::Postgres(),
+	dbname = "bda",
+	host = "localhost" ,
+	port = 5432,
+	user = "bda",
+	password = "bda",
+)
+
+dbWriteTable(con, "player", nhl, row.names = FALSE, overwrite = TRUE)
+dbDisconnect(con)
