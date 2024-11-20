@@ -2,9 +2,9 @@
 
 
 #libs, yo!
-library(DBI)
+#library(DBI)
 library(RPostgres)
-library(janitor)
+#1library(janitor)
 
 
 #Reading and cleaning the data! BIG DATA!
