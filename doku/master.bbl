@@ -1,0 +1,206 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{chen_big_2014}{book}{}
+      \name{author}{4}{}{%
+        {{hash=fb194450e9046854896c4ca5f2dc8d01}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Min},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f96ac342ca3c4d48bb3a476628f38ec7}{%
+           family={Mao},
+           familyi={M\bibinitperiod},
+           given={Shiwen},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5d6038c292fe254b531b0db4830097e3}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yin},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=8b4082936a45dafc0f71d542aad12350}{%
+           family={Leung},
+           familyi={L\bibinitperiod},
+           given={Victor\bibnamedelima C.M.},
+           giveni={V\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{2eae75f66e5c3ec60399f4c040eab07c}
+      \strng{fullhash}{f1e814a937bf226e5f9523b4ee35274b}
+      \strng{bibnamehash}{2eae75f66e5c3ec60399f4c040eab07c}
+      \strng{authorbibnamehash}{2eae75f66e5c3ec60399f4c040eab07c}
+      \strng{authornamehash}{2eae75f66e5c3ec60399f4c040eab07c}
+      \strng{authorfullhash}{f1e814a937bf226e5f9523b4ee35274b}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-3-319-06244-0 978-3-319-06245-7}
+      \field{langid}{english}
+      \field{series}{{SpringerBriefs} in Computer Science}
+      \field{shorttitle}{Big Data}
+      \field{title}{Big Data: Related Technologies, Challenges and Future Prospects}
+      \field{urlday}{13}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1007/978-3-319-06245-7
+      \endverb
+      \verb{file}
+      \verb PDF:/home/moritzwerr/Zotero/storage/CVCK97RI/Chen et al. - 2014 - Big Data Related Technologies, Challenges and Future Prospects.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/10.1007/978-3-319-06245-7
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/978-3-319-06245-7
+      \endverb
+    \endentry
+    \entry{i7_intel_2024}{online}{}
+      \name{author}{1}{}{%
+        {{hash=1ba3b416ad5408db4097bdd750e449b2}{%
+           family={I7},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{1ba3b416ad5408db4097bdd750e449b2}
+      \strng{fullhash}{1ba3b416ad5408db4097bdd750e449b2}
+      \strng{bibnamehash}{1ba3b416ad5408db4097bdd750e449b2}
+      \strng{authorbibnamehash}{1ba3b416ad5408db4097bdd750e449b2}
+      \strng{authornamehash}{1ba3b416ad5408db4097bdd750e449b2}
+      \strng{authorfullhash}{1ba3b416ad5408db4097bdd750e449b2}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Produkte vergleichen}
+      \field{day}{4}
+      \field{langid}{german}
+      \field{month}{11}
+      \field{title}{Intel Core i7 Generation 4 bis 14}
+      \field{titleaddon}{i7}
+      \field{urlday}{4}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb Intel_UPE_ComparisonChart_2024_11_04_i7:/home/moritzwerr/Zotero/storage/U7VU6PDN/Intel_UPE_ComparisonChart_2024_11_04_i7.csv:text/csv;Snapshot:/home/moritzwerr/Zotero/storage/I3GZLLC5/compare.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.intel.de/content/www/de/de/products/compare.html?productIds=212279,212280,212047,212048,212251,199325,199335,199314,199316,199318,191048,191792,193738,190885,186604,148263,140642,126684,97129,93339,88200,88195,87718,88040,80807,80808,80809,80814,80806,77656,76642,75121,75122,75123,75124,75125,236781,236794,236854,236783,236789,230492,230490,230491,230500,230489,134596,134591,134592,134594,134595,129948,126686,97122,97128,88196
+      \endverb
+      \verb{url}
+      \verb https://www.intel.de/content/www/de/de/products/compare.html?productIds=212279,212280,212047,212048,212251,199325,199335,199314,199316,199318,191048,191792,193738,190885,186604,148263,140642,126684,97129,93339,88200,88195,87718,88040,80807,80808,80809,80814,80806,77656,76642,75121,75122,75123,75124,75125,236781,236794,236854,236783,236789,230492,230490,230491,230500,230489,134596,134591,134592,134594,134595,129948,126686,97122,97128,88196
+      \endverb
+    \endentry
+    \entry{marjani_big_2017}{article}{}
+      \name{author}{7}{}{%
+        {{hash=ce399e4c7ea32b93bed5d4c8f9080797}{%
+           family={Marjani},
+           familyi={M\bibinitperiod},
+           given={Mohsen},
+           giveni={M\bibinitperiod}}}%
+        {{hash=df66860dbbf9552ca56e5d7a6025f1f2}{%
+           family={Nasaruddin},
+           familyi={N\bibinitperiod},
+           given={Fariza},
+           giveni={F\bibinitperiod}}}%
+        {{hash=12a2bdd5a21b830affa3f042add044de}{%
+           family={Gani},
+           familyi={G\bibinitperiod},
+           given={Abdullah},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5d86481c6d02c4ad331865ea1ad22e96}{%
+           family={Karim},
+           familyi={K\bibinitperiod},
+           given={Ahmad},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3db72b28ca88d09572cce78216bd22f0}{%
+           family={Hashem},
+           familyi={H\bibinitperiod},
+           given={Ibrahim\bibnamedelimb Abaker\bibnamedelima Targio},
+           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=d79a3b0735def6e1383425b996584716}{%
+           family={Siddiqa},
+           familyi={S\bibinitperiod},
+           given={Aisha},
+           giveni={A\bibinitperiod}}}%
+        {{hash=446d935cc3981c652f747abe3a5227f0}{%
+           family={Yaqoob},
+           familyi={Y\bibinitperiod},
+           given={Ibrar},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{f7a5a63ea20af3de3a9f93340a6dee63}
+      \strng{fullhash}{95efcb086381a8057712d763d31d6596}
+      \strng{bibnamehash}{f7a5a63ea20af3de3a9f93340a6dee63}
+      \strng{authorbibnamehash}{f7a5a63ea20af3de3a9f93340a6dee63}
+      \strng{authornamehash}{f7a5a63ea20af3de3a9f93340a6dee63}
+      \strng{authorfullhash}{95efcb086381a8057712d763d31d6596}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Voluminous amounts of data have been produced, since the past decade as the miniaturization of Internet of things ({IoT}) devices increases. However, such data are not useful without analytic power. Numerous big data, {IoT}, and analytics solutions have enabled people to obtain valuable insight into large data generated by {IoT} devices. However, these solutions are still in their infancy, and the domain lacks a comprehensive survey. This paper investigates the state-of-the-art research efforts directed toward big {IoT} data analytics. The relationship between big data analytics and {IoT} is explained. Moreover, this paper adds value by proposing a new architecture for big {IoT} data analytics. Furthermore, big {IoT} data analytic types, methods, and technologies for big data mining are discussed. Numerous notable use cases are also presented. Several opportunities brought by data analytics in {IoT} paradigm are then discussed. Finally, open research challenges, such as privacy, big data mining, visualization, and integration, are presented as future research directions.}
+      \field{issn}{2169-3536}
+      \field{journaltitle}{{IEEE} Access}
+      \field{note}{Conference Name: {IEEE} Access}
+      \field{shorttitle}{Big {IoT} Data Analytics}
+      \field{title}{Big {IoT} Data Analytics: Architecture, Opportunities, and Open Research Challenges}
+      \field{urlday}{13}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{volume}{5}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{5247\bibrangedash 5261}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2017.2689040
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/moritzwerr/Zotero/storage/GNNR8VS2/Marjani et al. - 2017 - Big IoT Data Analytics Architecture, Opportunities, and Open Research Challenges.pdf:application/pdf;IEEE Xplore Abstract Record:/home/moritzwerr/Zotero/storage/UXPNA6CF/7888916.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/abstract/document/7888916
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/abstract/document/7888916
+      \endverb
+      \keyw{Big data,Big Data,Business,Computer architecture,Data analysis,data analytics,Data mining,distributed computing,Internet of Things,Sensors,smart city,Tools}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

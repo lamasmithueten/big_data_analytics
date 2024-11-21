@@ -1,22 +1,100 @@
 % !TEX root =  master.tex
-\chapter{Beispiel-Kapitel: Noch ein Kapitel}
+\chapter{Säubern der Daten}
 
-blabla
+Nun ist die CSV vorbereitet für die eigentliche Säuberung. Die Daten liegen in den entsprechenden Spalten vor und alle uninteressanten Daten wurden entfernt.
+Bevor die Daten jedoch in einer Datenbank in Tabellenform gespeichert werden können, sollten noch entsprechende Zahlenwerte als Zahl erkannt werden.
+Weiterhin beinhalten viele Spaltennamen immer noch Sonderzeichen und Leerzeichen, weswegen sie schwierig zu bearbeiten sind.
 
-\section{Abschnitt mit Coding}
+Um diese Probleme zu addressieren, wurde R zur Bereinigung der Daten ausgewählt.
+R ist eine Skriptsprache für statistische Berechnungen. Es bietet mächtige Werkzeuge zur Auswertung und Säuberung von Daten und ist damit eine exzellente Wahl um dieses Problem zu lösen.
+Es bietet Möglichkeiten die Spaltennamen automatisch umzubenennen, indem es problematische Zeichen, wie z.B. Leerzeichen und Sonderzeichen, erkennt und durch unproblematische Zeichen ersetzt.
+Weiterhin werden auch alle Großbuchstaben durch Kleinbuchstaben ersetzt.
+Darüber hinaus ist R eine dynamisch typisierte Skriptsprache. Datentypen werden je nach Kontext automatisiert erkannt.
+Wenn die entsprechenden Spalten von allen Zeichen, die keine Zahlen sind, gesäubert werden, lassen sich diese problemlos in Zahlen umwandeln.
+Die entsprechenden Einheiten, welche vorher direkt in den Spalten gespeichert wurden, werden stattdessen noch in den Spaltennamen hinzugefügt.
 
-Der folgende Quelltext wird auch im Quelltextverzeichnis\index{Quelltext} referenziert:
+Wenn alle Spalten und Spaltennamen gesäubert bzw. angepasst wurden, können die Daten in einer Datenbank gespeichert werden.
 
-\begin{lstlisting}[caption={\texttt{PrintMovieDB.py}},captionpos=b]
-import numpy as np  
-import matplotlib.pyplot as plt  
-import pandas as pd  
-from apyori import apriori
+Mit den vorher genannten Überlegungen im Hinterkopf ist folgendes Skript entstanden: 
 
-movie_data = pd.read_csv('./movie_dataset.csv', header = None)
-num_records = len(movie_data)
-print(num_records)
+
+\lstset{
+	breaklines=true,         % Enable line wrapping
+	breakatwhitespace=false, % Allow breaks at any character (not just whitespace)
+	basicstyle=\ttfamily,    % Use monospaced font
+}
+
+\begin{lstlisting}[caption={\texttt{database.R}},captionpos=b]
+#!/usr/bin/Rscript
+
+library(RPostgres)
+
+intel <- read.csv("clean.csv")		#Reading
+intel <- janitor::clean_names(intel)	#Cleaning the column names
+
+#cleaning and mutating columns to numbers
+intel$max_turbo_taktfrequenz <- as.numeric(gsub(" GHz", "", intel$max_turbo_taktfrequenz))
+intel$lithographie <- gsub("Intel 7", "10 nm", intel$lithographie)
+intel$lithographie <- as.numeric(gsub(" nm", "", intel$lithographie))
+intel$intel_turbo_boost_technik_2_0_taktfrequenz <- as.numeric(gsub(" GHz", "", intel$intel_turbo_boost_technik_2_0_taktfrequenz))
+intel$grundtaktfrequenz_des_prozessors <- gsub(" \\| ", ".", intel$grundtaktfrequenz_des_prozessors)
+intel$grundtaktfrequenz_des_prozessors <- as.numeric(gsub(" GHz", "", intel$grundtaktfrequenz_des_prozessors))
+intel$cache <- gsub(" MB Intel® Smart Cache", "", intel$cache)
+intel$cache <- as.numeric(gsub(" MB", "", intel$cache))
+intel$bus_taktfrequenz <- as.numeric(gsub(" GT/s", "", intel$bus_taktfrequenz))
+intel$verlustleistung_tdp <- as.numeric(gsub(" W", "", intel$verlustleistung_tdp))
+intel$intel_turbo_boost_max_technology_3_0_frequency <- gsub(" \\| ", ".", intel$intel_turbo_boost_max_technology_3_0_frequency)
+intel$intel_turbo_boost_max_technology_3_0_frequency <- as.numeric(gsub(" GHz", "", intel$intel_turbo_boost_max_technology_3_0_frequency))
+intel$single_p_core_turbo_frequency <- as.numeric(gsub(" GHz", "", intel$single_p_core_turbo_frequency))
+intel$single_e_core_turbo_frequency <- as.numeric(gsub(" GHz", "", intel$single_e_core_turbo_frequency))
+intel$e_core_base_frequency <- gsub(" GHz", "", intel$e_core_base_frequency)
+intel$e_core_base_frequency <- as.numeric(gsub("900 MHz", "0.9", intel$e_core_base_frequency))
+intel$total_l2_cache <- as.numeric(gsub(" MB", "", intel$total_l2_cache))
+intel$processor_base_power <- as.numeric(gsub(" W", "", intel$processor_base_power))
+intel$maximum_turbo_power <- as.numeric(gsub(" W", "", intel$maximum_turbo_power))
+intel$grundtaktfrequenz_der_grafik <- as.numeric(gsub(" MHz", "", intel$grundtaktfrequenz_der_grafik))
+intel$max_dynamische_grafikfrequenz <- as.numeric(gsub(" GHz", "", intel$max_dynamische_grafikfrequenz))
+intel$max_videospeicher_der_grafik <- as.numeric(gsub(" GB", "", intel$max_videospeicher_der_grafik))
+intel$x4k_unterstutzung <- gsub("Hz", "", intel$x4k_unterstutzung)
+intel$x4k_unterstutzung <- as.numeric(gsub("Yes \\|  at ", "", intel$x4k_unterstutzung))
+
+
+#Putting the units back into the column names
+colnames(intel)[colnames(intel) == "max_turbo_taktfrequenz"] <- "max_turbo_taktfrequenz_GHz"
+colnames(intel)[colnames(intel) == "lithographie"] <- "litographie_nm"
+colnames(intel)[colnames(intel) == "intel_turbo_boost_technik_2_0_taktfrequenz"] <- "intel_turbo_boost_technik_2_0_taktfrequenz_GHz"
+colnames(intel)[colnames(intel) == "grundtaktfrequenz_des_prozessors"] <- "grundtaktfrequenz_des_prozessors_GHz"
+colnames(intel)[colnames(intel) == "cache"] <- "cache_MB"
+colnames(intel)[colnames(intel) == "bus_taktfrequenz"] <- "bus_taktfrequenz_GT_per_s"
+colnames(intel)[colnames(intel) == "verlustleistung_tdp"] <- "verlustleistung_tdp_W"
+colnames(intel)[colnames(intel) == "intel_turbo_boost_max_technology_3_0_frequency"] <- "intel_turbo_boost_max_technology_3_0_frequency_GHz"
+colnames(intel)[colnames(intel) == "single_p_core_turbo_frequency"] <- "single_p_core_turbo_frequency_GHz"
+colnames(intel)[colnames(intel) == "single_e_core_turbo_frequency"] <- "single_e_core_turbo_frequency_GHz"
+colnames(intel)[colnames(intel) == "e_core_base_frequency"] <- "e_core_base_frequency_GHz"
+colnames(intel)[colnames(intel) == "total_l2_cache"] <- "total_l2_cache_MB"
+colnames(intel)[colnames(intel) == "processor_base_power"] <- "processor_base_power_W"
+colnames(intel)[colnames(intel) == "maximum_turbo_power"] <- "maximum_turbo_power_W"
+colnames(intel)[colnames(intel) == "grundtaktfrequenz_der_grafik"] <- "grundtaktfrequenz_der_grafik_MHz"
+colnames(intel)[colnames(intel) == "max_dynamische_grafikfrequenz"] <- "max_dynamische_grafikfrequenz_GHz"
+colnames(intel)[colnames(intel) == "max_videospeicher_der_grafik"] <- "max_videospeicher_der_grafik_GB"
+colnames(intel)[colnames(intel) == "x4k_unterstutzung"] <- "x4k_unterstutzung_at"
+
+
+con <- dbConnect(
+RPostgres::Postgres(),
+dbname = "bda",
+host = "localhost" ,
+port = 5432,
+user = "bda",
+password = "bda",
+)
+
+dbWriteTable(con, "intel", intel, row.names = FALSE, overwrite = TRUE)
+dbDisconnect(con)
 \end{lstlisting}
 
-\section{Noch ein Abschnitt mit Coding}
-Blabla
+Als erstes wird die transponierte CSV eingelesen und die Spaltennamen mit Hilfe der `janitor` Library gesäubert. Danach kommt ein großer Block an Funktionen, die die einzelnen Spalten von Einheiten und komischer Formatierung säubern.
+Danach kommt ein großer Block zur Umbenennung der Spaltennamen. 
+Im letzten Schritt wird der Dataframe in einer existierenden Datenbank gespeichert. 
+Ein großer Vorteil an der Funktion ist, dass die Tabelle innerhalb der Datenbank vorher nicht existieren muss. 
+R erstellt von selber eine neue Tabelle mit entsprechenden Datentypen basierend auf den Datentypen innerhalb des Dataframes. Daher ist es wichtig die Daten innerhalb des Skripts schon zu Nummern zu konvertieren.

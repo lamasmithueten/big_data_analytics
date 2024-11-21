@@ -1,0 +1,14 @@
+% !TEX root =  master.tex
+\chapter{Speichern der Daten}
+
+Aus dem vorherigen Kapitel ist bereits hervorgegangen, dass die Daten in einer Datenbank gespeichert werden.
+In diesem Fall ist die Wahl auf PostgreSQL gefallen.
+PostgreSQL ist ein relationales Datenbankmanagementsystem. Es ist komplett ACID-kompatibel und speichert Daten in geordneter Form als Tabellen ab.
+Da die Datenquelle bereits als CSV geliefert wird, bietet es sich an diese in einer entsprechenden Datenbank zu speichern.
+CSV-Dateien speichern bereits Daten in Tabellenform, weswegen die Wahl direkt auf eine Datenbank gefallen ist.
+
+Als Alternativen zu PostgreSQL gibt es viele, sind aber teils kostenpflichtig oder nicht so weit verbreitet wie PostgreSQL.
+Datenbankmanagementsysteme wie Oracle RDBMS oder Microsoft sind für große, Enterprise-Skala Deployments konzipiert und kosten entsprechend eine gute Menge Geld.
+MariaDB bzw. MySQL und SQLite wären Open-Source Alternativen zu PostgreSQL, welche auch gut geeignet sind.
+SQLite jedoch bietet keine Serverfunktionalität weswegen nur lokal gearbeitet werden kann.
+MariaDB/MySQL haben keinen nennenswerten Funktionalitätsunterschied, aber wurden nicht gewählt, weil mit PostgreSQL mehr Erfahrung im Team existiert.
