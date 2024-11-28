@@ -33,8 +33,7 @@ awk -F ',' '
 	NR==61	||
 	NR==62	||
 	NR==82	||
-	NR==90 
-	{print $0}' "Intel_UPE_ComparisonChart_2024_11_04_i7.csv" |
+	NR==90 	{print $0}' "Intel_UPE_ComparisonChart_2024_11_04_i7.csv" |
 
 awk '
 {
