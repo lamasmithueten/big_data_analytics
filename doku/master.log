@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.10.4)  21 NOV 2024 13:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.11.21)  28 NOV 2024 12:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -883,7 +883,15 @@ Type  H <return>  for immediate help.
                                                   
 l.15 \usepackage
                 [german=quotes]{csquotes} 	% correct quoting using \enquote{}
-? 
+The package babel has already been loaded with options:
+  [english]
+There has now been an attempt to load it with options
+  [ngerman]
+Adding the global options:
+  english,ngerman
+to your \documentclass declaration may fix this.
+Try typing  <return>  to proceed.
+
 
 ! LaTeX Error: Option clash for package csquotes.
 
@@ -893,7 +901,15 @@ Type  H <return>  for immediate help.
                                                   
 l.18 
      
-? 
+The package csquotes has already been loaded with options:
+  []
+There has now been an attempt to load it with options
+  [german=quotes]
+Adding the global options:
+  ,german=quotes
+to your \documentclass declaration may fix this.
+Try typing  <return>  to proceed.
+
 (/usr/share/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
@@ -924,7 +940,10 @@ Type  H <return>  for immediate help.
                                                   
 l.117 ...lDerArbeit{#1}\hypersetup{pdftitle={#1}}}
                                                   
-? 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 
 ! LaTeX Error: Command \AutorDerArbeit already defined.
                Or name \end... illegal, see p.192 of the manual.
@@ -935,7 +954,10 @@ Type  H <return>  for immediate help.
                                                   
 l.118 ...DerArbeit{#1}\hypersetup{pdfauthor={#1}}}
                                                   
-? 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 
 ! LaTeX Error: Command \Firma already defined.
                Or name \end... illegal, see p.192 of the manual.
@@ -946,7 +968,10 @@ Type  H <return>  for immediate help.
                                                   
 l.119 ...mand{\Firma}[1]{\def\DerNameDerFirma{#1}}
                                                   
-? 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 
 ! LaTeX Error: Command \Kurs already defined.
                Or name \end... illegal, see p.192 of the manual.
@@ -957,7 +982,10 @@ Type  H <return>  for immediate help.
                                                   
 l.120 ...nd{\Kurs}[1]{\def\DieKursbezeichnung{#1}}
                                                   
-? 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 
 ! LaTeX Error: Command \Abteilung already defined.
                Or name \end... illegal, see p.192 of the manual.
@@ -968,7 +996,10 @@ Type  H <return>  for immediate help.
                                                   
 l.121 ...teilung}[1]{\def\DerNameDerAbteilung{#1}}
                                                   
-? 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 
 ! LaTeX Error: Command \Studiengangsleiter already defined.
                Or name \end... illegal, see p.192 of the manual.
@@ -979,7 +1010,10 @@ Type  H <return>  for immediate help.
                                                   
 l.122 ...eiter}[1]{\def\DerStudiengangsleiter{#1}}
                                                   
-? 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 
 ! LaTeX Error: Command \WissBetreuer already defined.
                Or name \end... illegal, see p.192 of the manual.
@@ -990,7 +1024,10 @@ Type  H <return>  for immediate help.
                                                   
 l.123 ...issBetreuer}[1]{\def\DerWissBetreuer{#1}}
                                                   
-? 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 
 ! LaTeX Error: Command \FirmenBetreuer already defined.
                Or name \end... illegal, see p.192 of the manual.
@@ -1001,7 +1038,10 @@ Type  H <return>  for immediate help.
                                                   
 l.124 ...nBetreuer}[1]{\def\DerFirmenBetreuer{#1}}
                                                   
-? 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 
 ! LaTeX Error: Command \Bearbeitungszeitraum already defined.
                Or name \end... illegal, see p.192 of the manual.
@@ -1012,7 +1052,10 @@ Type  H <return>  for immediate help.
                                                   
 l.125 ...aum}[1]{\def\DerBearbeitungszeitraum{#1}}
                                                   
-? 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 
 ! LaTeX Error: Command \Abgabedatum already defined.
                Or name \end... illegal, see p.192 of the manual.
@@ -1023,7 +1066,10 @@ Type  H <return>  for immediate help.
                                                   
 l.126 ...\Abgabedatum}[1]{\def\DasAbgabedatum{#1}}
                                                   
-? 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 
 ! LaTeX Error: Command \Matrikelnummer already defined.
                Or name \end... illegal, see p.192 of the manual.
@@ -1034,7 +1080,10 @@ Type  H <return>  for immediate help.
                                                   
 l.127 ...kelnummer}[1]{\def\DieMatrikelnummer{#1}}
                                                   
-? 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 
 ! LaTeX Error: Command \Studienrichtung already defined.
                Or name \end... illegal, see p.192 of the manual.
@@ -1045,7 +1094,10 @@ Type  H <return>  for immediate help.
                                                   
 l.128 ...richtung}[1]{\def\DieStudienrichtung{#1}}
                                                   
-? 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 
 ! LaTeX Error: Command \ArtDerArbeit already defined.
                Or name \end... illegal, see p.192 of the manual.
@@ -1056,7 +1108,10 @@ Type  H <return>  for immediate help.
                                                   
 l.129 ...rtDerArbeit}[1]{\def\DieArtDerArbeit{#1}}
                                                   
-? 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 
 ! LaTeX Error: Command \Literaturverzeichnis already defined.
                Or name \end... illegal, see p.192 of the manual.
@@ -1067,7 +1122,10 @@ Type  H <return>  for immediate help.
                                                   
 l.130 ...teraturverzeichnis}{Literaturverzeichnis}
                                                   
-? 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -1212,12 +1270,13 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./img/firmenlogo.jpg> <./i
-mg/logo.jpg>]) (./ewerkl.tex) [1
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts
+/enc/dvips/cm-super/cm-super-t1.enc} <./img/firmenlogo.jpg> <./img/logo.jpg>]) 
+(./ewerkl.tex) [1
 
 
-]
-(./nondisclosurenotice.tex [2
+] (./nondisclosurenotice.tex
+[2
 
 
 ]) (./acknowledge.tex) [3
@@ -1235,24 +1294,25 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 8.
 Package tocbasic Info: Using my definition of `\numberline' on input line 14.
 Package tocbasic Info: Using my definition of `\numberline' on input line 15.
 Package tocbasic Info: Using my definition of `\numberline' on input line 16.
-Package tocbasic Info: Using my definition of `\numberline' on input line 19.
+Package tocbasic Info: Using my definition of `\numberline' on input line 17.
 Package tocbasic Info: Using my definition of `\numberline' on input line 20.
-Package tocbasic Info: Using my definition of `\numberline' on input line 23.
+Package tocbasic Info: Using my definition of `\numberline' on input line 21.
 Package tocbasic Info: Using my definition of `\numberline' on input line 24.
+Package tocbasic Info: Using my definition of `\numberline' on input line 25.
 )
 \tf@toc=\write6
 \openout6 = `master.toc'.
 
  [4
 
-]
-(./master.lof)
+] (./master.lof)
 \tf@lof=\write7
 \openout7 = `master.lof'.
 
  [5
 
-] (./master.lot)
+]
+(./master.lot)
 \tf@lot=\write8
 \openout8 = `master.lot'.
 
@@ -1389,12 +1449,13 @@ l.39 A
 
 
 
-]) (./chapter1.tex [2]
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}])
+(./chapter1.tex [2]
 chapter 2.
 [3
 
 ]
-<img/webseite.png, id=137, 1178.15157pt x 603.0028pt>
+<img/webseite.png, id=139, 1178.15157pt x 603.0028pt>
 File: img/webseite.png Graphic file (type png)
 <use img/webseite.png>
 Package pdftex.def Info: img/webseite.png  used on input line 24.
@@ -1411,28 +1472,7 @@ Overfull \hbox (1.22198pt too wide) in paragraph at lines 4--7
 
 [6
 
-]
-
-! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.42 intel$cache <- gsub(" MB Intel® 
-                                      Smart Cache", "", intel$cache)
-? 
-
-! LaTeX Error: Invalid UTF-8 byte "AE.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.42 intel$cache <- gsub(" MB Intel® 
-                                      Smart Cache", "", intel$cache)
-? 
-[7] [8]) (./chapter3.tex [9]
+] [7] [8]) (./chapter3.tex [9]
 chapter 4.
 ) (./conclusion.tex [10
 
@@ -1480,6 +1520,11 @@ LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `master.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                master
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'master.run.xml'.
 \openout1 = `master.run.xml'.
 
@@ -1489,40 +1534,27 @@ Package logreq Info: Writing requests to 'master.run.xml'.
 ### simple group (level 1) entered at line 40 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 29249 strings out of 476076
- 569399 string characters out of 5793775
- 2111187 words of memory out of 5000000
- 50806 multiletter control sequences out of 15000+600000
+ 29260 strings out of 476076
+ 569944 string characters out of 5793774
+ 2117187 words of memory out of 5000000
+ 50814 multiletter control sequences out of 15000+600000
  574303 words of font info for 68 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 108i,20n,107p,10901b,2312s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{section.4.2} has been referenced but does not exist
-, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.4.1} has been referenced but does not exist
-, replaced by a fixed one
-
- </home/moritzwerr/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1200.600p
-k> </home/moritzwerr/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1095.60
-0pk> </home/moritzwerr/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0800.
-450pk> </home/moritzwerr/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss120
-0.600pk> </home/moritzwerr/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1
-000.600pk> </home/moritzwerr/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ect
-t1200.600pk> </home/moritzwerr/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/e
-css0800.600pk> </home/moritzwerr/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec
-/ecsi1200.600pk> </home/moritzwerr/.texlive/texmf-var/fonts/pk/ljfour/jknappen/
-ec/ecsx2488.600pk> </home/moritzwerr/.texlive/texmf-var/fonts/pk/ljfour/jknappe
-n/ec/ecss1200.600pk> </home/moritzwerr/.texlive/texmf-var/fonts/pk/ljfour/jknap
-pen/ec/ecsx1200.600pk> </home/moritzwerr/.texlive/texmf-var/fonts/pk/ljfour/jkn
-appen/ec/ecsx1728.600pk> </home/moritzwerr/.texlive/texmf-var/fonts/pk/ljfour/j
-knappen/ec/ecsx1440.600pk> </home/moritzwerr/.texlive/texmf-var/fonts/pk/ljfour
-/jknappen/ec/ecss1440.600pk>
-Output written on master.pdf (26 pages, 406729 bytes).
+ 108i,20n,107p,10901b,2311s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb
+></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsi1200.pfb></usr/share/te
+xmf-dist/fonts/type1/public/cm-super/sfss0800.pfb></usr/share/texmf-dist/fonts/
+type1/public/cm-super/sfss1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm
+-super/sfss1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1000
+.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/shar
+e/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf-dist/fo
+nts/type1/public/cm-super/sfsx1728.pfb></usr/share/texmf-dist/fonts/type1/publi
+c/cm-super/sfsx2488.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt
+1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on master.pdf (26 pages, 490663 bytes).
 PDF statistics:
- 982 PDF objects out of 1000 (max. 8388607)
- 445 compressed objects within 5 object streams
- 180 named destinations out of 1000 (max. 500000)
+ 507 PDF objects out of 1000 (max. 8388607)
+ 444 compressed objects within 5 object streams
+ 181 named destinations out of 1000 (max. 500000)
  200 words of extra memory for PDF output out of 10000 (max. 10000000)
 

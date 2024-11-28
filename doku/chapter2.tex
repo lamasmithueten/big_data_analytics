@@ -2,16 +2,16 @@
 \chapter{Säubern der Daten}
 
 Nun ist die CSV vorbereitet für die eigentliche Säuberung. Die Daten liegen in den entsprechenden Spalten vor und alle uninteressanten Daten wurden entfernt.
-Bevor die Daten jedoch in einer Datenbank in Tabellenform gespeichert werden können, sollten noch entsprechende Zahlenwerte als Zahl erkannt werden.
-Weiterhin beinhalten viele Spaltennamen immer noch Sonderzeichen und Leerzeichen, weswegen sie schwierig zu bearbeiten sind.
+Bevor die Daten jedoch in einer Datenbank in Tabellenform gespeichert werden können, sollten noch entsprechende Spalten bereinigt werden, dass nur noch Zahlenwerte ohne Einheiten dort aufzufinden sind.
+Weiterhin beinhalten viele Spaltennamen immer noch Sonderzeichen und Leerzeichen, welche es schwierig macht die Spalten zu lesen.
 
 Um diese Probleme zu addressieren, wurde R zur Bereinigung der Daten ausgewählt.
-R ist eine Skriptsprache für statistische Berechnungen. Es bietet mächtige Werkzeuge zur Auswertung und Säuberung von Daten und ist damit eine exzellente Wahl um dieses Problem zu lösen.
-Es bietet Möglichkeiten die Spaltennamen automatisch umzubenennen, indem es problematische Zeichen, wie z.B. Leerzeichen und Sonderzeichen, erkennt und durch unproblematische Zeichen ersetzt.
+R ist eine Skriptsprache für statistische Berechnungen \cite{noauthor_r_nodate}. Es bietet mächtige Werkzeuge zur Auswertung und Speicherung von Daten \cite{noauthor_r_nodate}. Damit ist damit eine exzellente Wahl um dieses Problem zu lösen.
+Es bietet Möglichkeiten die Spaltennamen automatisch mit der Funktion  \lstinline |clean_names()| aus der Bibliothek \lstinline|janitor| umzubenennen \cite{noauthor_janitor_nodate}, indem es problematische Zeichen, wie z.B. Leerzeichen und Sonderzeichen, erkennt und durch unproblematische Zeichen ersetzt.
 Weiterhin werden auch alle Großbuchstaben durch Kleinbuchstaben ersetzt.
 Darüber hinaus ist R eine dynamisch typisierte Skriptsprache. Datentypen werden je nach Kontext automatisiert erkannt.
-Wenn die entsprechenden Spalten von allen Zeichen, die keine Zahlen sind, gesäubert werden, lassen sich diese problemlos in Zahlen umwandeln.
-Die entsprechenden Einheiten, welche vorher direkt in den Spalten gespeichert wurden, werden stattdessen noch in den Spaltennamen hinzugefügt.
+Wenn die entsprechenden Spalten von allen nicht-numerischen Zeichen gesäubert werden, lassen sich diese problemlos in Zahlen umwandeln.
+Die entsprechenden Einheiten werden nach der Spaltensäuberung stattdessen noch in den Spaltennamen hinzugefügt.
 
 Wenn alle Spalten und Spaltennamen gesäubert bzw. angepasst wurden, können die Daten in einer Datenbank gespeichert werden.
 
@@ -39,7 +39,7 @@ intel$lithographie <- as.numeric(gsub(" nm", "", intel$lithographie))
 intel$intel_turbo_boost_technik_2_0_taktfrequenz <- as.numeric(gsub(" GHz", "", intel$intel_turbo_boost_technik_2_0_taktfrequenz))
 intel$grundtaktfrequenz_des_prozessors <- gsub(" \\| ", ".", intel$grundtaktfrequenz_des_prozessors)
 intel$grundtaktfrequenz_des_prozessors <- as.numeric(gsub(" GHz", "", intel$grundtaktfrequenz_des_prozessors))
-intel$cache <- gsub(" MB Intel® Smart Cache", "", intel$cache)
+intel$cache <- gsub(" MB Intel Smart Cache", "", intel$cache)
 intel$cache <- as.numeric(gsub(" MB", "", intel$cache))
 intel$bus_taktfrequenz <- as.numeric(gsub(" GT/s", "", intel$bus_taktfrequenz))
 intel$verlustleistung_tdp <- as.numeric(gsub(" W", "", intel$verlustleistung_tdp))
