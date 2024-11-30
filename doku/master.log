@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.30)  30 NOV 2024 17:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.30)  30 NOV 2024 17:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -914,82 +914,20 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 [1
 
 
-] (nondisclosurenotice.tex
+] (master.lol
+Package tocbasic Info: Using my definition of `\numberline' on input line 4.
+Package tocbasic Info: Using my definition of `\numberline' on input line 6.
+)
+\tf@lol=\write6
+\openout6 = `master.lol'.
+
+
 
 [2
 
 
-]) (acknowledge.tex)
-
-[3
-
-
-
-] (master.toc
-Package tocbasic Info: Using my definition of `\numberline' on input line 2.
-Package tocbasic Info: Using my definition of `\numberline' on input line 3.
-Package tocbasic Info: Using my definition of `\numberline' on input line 4.
-Package tocbasic Info: Using my definition of `\numberline' on input line 5.
-Package tocbasic Info: Using my definition of `\numberline' on input line 6.
-Package tocbasic Info: Using my definition of `\numberline' on input line 7.
-Package tocbasic Info: Using my definition of `\numberline' on input line 8.
-Package tocbasic Info: Using my definition of `\numberline' on input line 14.
-Package tocbasic Info: Using my definition of `\numberline' on input line 15.
-Package tocbasic Info: Using my definition of `\numberline' on input line 16.
-Package tocbasic Info: Using my definition of `\numberline' on input line 17.
-Package tocbasic Info: Using my definition of `\numberline' on input line 20.
-Package tocbasic Info: Using my definition of `\numberline' on input line 21.
-Package tocbasic Info: Using my definition of `\numberline' on input line 24.
-Package tocbasic Info: Using my definition of `\numberline' on input line 25.
-)
-\tf@toc=\write6
-\openout6 = `master.toc'.
-
-
-
-[4
-
-] (master.lof)
-\tf@lof=\write7
-\openout7 = `master.lof'.
-
-
-
-[5
-
-] (master.lot)
-\tf@lot=\write8
-\openout8 = `master.lot'.
-
-
-
-[6
-
-] (master.lol
-Package tocbasic Info: Using my definition of `\numberline' on input line 5.
-Package tocbasic Info: Using my definition of `\numberline' on input line 7.
-)
-\tf@lol=\write9
-\openout9 = `master.lol'.
-
-
-
-[7
-
-
-]
-
-Class scrreprt Warning: Usage of \float@listhead detected!
-(scrreprt)              This could be, because you are using
-(scrreprt)              package `float` without `floatbytocbasic`.
-(scrreprt)              Implementation of \float@listhead became
-(scrreprt)              deprecated in KOMA-Script v3.01 2008/11/14 and
-(scrreprt)              has been replaced by several more flexible
-(scrreprt)              features of package `tocbasic`.
-(scrreprt)              Implementation of \float@listhead will
-(scrreprt)              be removed from KOMA-Script soon on input line 215.
-
-chapter without number
+] (introduction.tex
+chapter 1.
 
 Class scrreprt Warning: \float@addtolists detected!
 (scrreprt)              Implementation of \float@addtolist became
@@ -1004,65 +942,6 @@ Class scrreprt Warning: \float@addtolists detected!
 (scrreprt)              \float@addtolist interface has been
 (scrreprt)              removed from all KOMA-Script classes.
 
-(master.loa)
-\tf@loa=\write10
-\openout10 = `master.loa'.
-
-
-
-[8
-
-
-] (acronyms.tex
-
-LaTeX Warning: Hyper reference `acro:ad' on page ix undefined on input line 7.
-
-
-LaTeX Warning: Hyper reference `acro:ad' on page ix undefined on input line 7.
-
-
-LaTeX Warning: Hyper reference `acro:BMBF' on page ix undefined on input line 8.
-
-
-LaTeX Warning: Hyper reference `acro:BMBF' on page ix undefined on input line 8.
-
-
-LaTeX Warning: Hyper reference `acro:DHBW' on page ix undefined on input line 9.
-
-
-LaTeX Warning: Hyper reference `acro:DHBW' on page ix undefined on input line 9.
-
-
-LaTeX Warning: Hyper reference `acro:ecu' on page ix undefined on input line 10.
-
-
-LaTeX Warning: Hyper reference `acro:ecu' on page ix undefined on input line 10.
-
-
-LaTeX Warning: Hyper reference `acro:eu' on page ix undefined on input line 11.
-
-
-LaTeX Warning: Hyper reference `acro:eu' on page ix undefined on input line 11.
-
-
-LaTeX Warning: Hyper reference `acro:RDBMS' on page ix undefined on input line 12.
-
-
-LaTeX Warning: Hyper reference `acro:RDBMS' on page ix undefined on input line 12.
-
-)
-
-[9
-
-
-
-] (abstract.tex)
-
-[10
-
-
-] (introduction.tex
-chapter 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <17.28> on input line 8.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -1092,7 +971,7 @@ chapter 2.
 [3
 
 ]
-<img/webseite.png, id=137, 1178.15157pt x 603.0028pt>
+<img/webseite.png, id=56, 1178.15157pt x 603.0028pt>
 File: img/webseite.png Graphic file (type png)
 <use img/webseite.png>
 Package pdftex.def Info: img/webseite.png  used on input line 24.
@@ -1150,10 +1029,10 @@ chapter B.
 chapter without number
 
 LaTeX Font Warning: Font shape `T1/cmss/m/sc' in size <12> not available
-(Font)              Font shape `T1/cmr/m/sc' tried instead on input line 272.
+(Font)              Font shape `T1/cmr/m/sc' tried instead on input line 237.
 
 
-Overfull \hbox (6.37144pt too wide) in paragraph at lines 273--273
+Overfull \hbox (6.37144pt too wide) in paragraph at lines 238--238
 \T1/cmss/m/n/12 Re-search Chal-lenges^^Q. In: \T1/cmss/m/sl/12 IEEE Ac-cess \T1/cmss/m/n/12 5 (2017). Con-fer-ence Name: IEEE Ac-cess, pp. 5247^^U
  []
 
@@ -1168,10 +1047,6 @@ No file master.ind.
 LaTeX2e <2024-11-01>
 L3 programming layer <2024-11-02>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `master.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'master.run.xml'.
@@ -1183,17 +1058,17 @@ Package logreq Info: Writing requests to 'master.run.xml'.
 ### simple group (level 1) entered at line 40 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 29552 strings out of 473681
- 583421 string characters out of 5719670
- 1805651 words of memory out of 5000000
- 52084 multiletter control sequences out of 15000+600000
- 574303 words of font info for 68 fonts, out of 8000000 for 9000
+ 29441 strings out of 473681
+ 581201 string characters out of 5719670
+ 1805272 words of memory out of 5000000
+ 52018 multiletter control sequences out of 15000+600000
+ 573532 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,20n,107p,10985b,2316s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi450\ecss0800.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss1200.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1000.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0800.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsi1200.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx2488.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1200.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1728.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1440.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk>
-Output written on master.pdf (26 pages, 428007 bytes).
+ <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi450\ecss0800.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss1200.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1000.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0800.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsi1200.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx2488.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1200.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1728.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1440.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk>
+Output written on master.pdf (18 pages, 397896 bytes).
 PDF statistics:
- 999 PDF objects out of 1000 (max. 8388607)
- 181 named destinations out of 1000 (max. 500000)
- 195 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 867 PDF objects out of 1000 (max. 8388607)
+ 160 named destinations out of 1000 (max. 500000)
+ 155 words of extra memory for PDF output out of 10000 (max. 10000000)
 
