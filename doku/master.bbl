@@ -19,6 +19,32 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{noauthor_51_2024}{online}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labeltitlesource}{title}
+      \field{abstract}{5.1.\&nbsp;Table Basics \# A table in a relational database is much like a table on paper: It consists of rows …}
+      \field{day}{21}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{title}{5.1. Table Basics}
+      \field{titleaddon}{{PostgreSQL} Documentation}
+      \field{urlday}{30}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/home/moritzwerr/Zotero/storage/XLHYHVC5/ddl-basics.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.postgresql.org/docs/17/ddl-basics.html
+      \endverb
+      \verb{url}
+      \verb https://www.postgresql.org/docs/17/ddl-basics.html
+      \endverb
+    \endentry
     \entry{noauthor_awk1_nodate}{online}{}
       \field{sortinit}{a}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
@@ -131,7 +157,6 @@
       \field{year}{2019}
       \field{dateera}{ce}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{file}
       \verb Snapshot:/home/moritzwerr/Zotero/storage/QV76EQPZ/introduction-to-the-r-programming-language.html:text/html
       \endverb
@@ -277,6 +302,102 @@
       \endverb
       \keyw{Big data,Big Data,Business,Computer architecture,Data analysis,data analytics,Data mining,distributed computing,Internet of Things,Sensors,smart city,Tools}
     \endentry
+    \entry{noauthor_microsoft_nodate}{online}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labeltitlesource}{title}
+      \field{title}{Microsoft {SQL} Server System Properties}
+      \field{urlday}{30}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Microsoft SQL Server System Properties:/home/moritzwerr/Zotero/storage/YZ486778/Microsoft+SQL+Server.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://db-engines.com/en/system/Microsoft+SQL+Server
+      \endverb
+      \verb{url}
+      \verb https://db-engines.com/en/system/Microsoft+SQL+Server
+      \endverb
+    \endentry
+    \entry{noauthor_mysql_nodate}{online}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labeltitlesource}{title}
+      \field{title}{{MySQL} System Properties}
+      \field{urlday}{30}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb MySQL System Properties:/home/moritzwerr/Zotero/storage/66ZNP7SQ/MySQL.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://db-engines.com/en/system/MySQL
+      \endverb
+      \verb{url}
+      \verb https://db-engines.com/en/system/MySQL
+      \endverb
+    \endentry
+    \entry{noauthor_oracle_nodate}{online}{}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labeltitlesource}{title}
+      \field{title}{Oracle System Properties}
+      \field{urlday}{30}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Oracle System Properties:/home/moritzwerr/Zotero/storage/C29PHLBJ/Oracle.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://db-engines.com/en/system/Oracle
+      \endverb
+      \verb{url}
+      \verb https://db-engines.com/en/system/Oracle
+      \endverb
+    \endentry
+    \entry{noauthor_postgresql_nodate-1}{online}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeltitlesource}{title}
+      \field{title}{{PostgreSQL} System Properties}
+      \field{urlday}{30}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb PostgreSQL System Properties:/home/moritzwerr/Zotero/storage/8X75WF6U/PostgreSQL.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://db-engines.com/en/system/PostgreSQL
+      \endverb
+      \verb{url}
+      \verb https://db-engines.com/en/system/PostgreSQL
+      \endverb
+    \endentry
+    \entry{noauthor_postgresql_nodate}{online}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeltitlesource}{title}
+      \field{title}{{PostgreSQL}: About}
+      \field{urlday}{30}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb PostgreSQL\: About:/home/moritzwerr/Zotero/storage/CDJ7PDPU/about.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.postgresql.org/about/
+      \endverb
+      \verb{url}
+      \verb https://www.postgresql.org/about/
+      \endverb
+    \endentry
     \entry{noauthor_r_nodate}{online}{}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
@@ -294,6 +415,22 @@
       \endverb
       \verb{url}
       \verb https://www.r-project.org/about.html
+      \endverb
+    \endentry
+    \entry{noauthor_sqlite_nodate}{online}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeltitlesource}{title}
+      \field{title}{{SQLite} System Properties}
+      \field{urlday}{30}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://db-engines.com/en/system/SQLite
+      \endverb
+      \verb{url}
+      \verb https://db-engines.com/en/system/SQLite
       \endverb
     \endentry
   \enddatalist

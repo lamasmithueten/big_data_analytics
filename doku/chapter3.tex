@@ -3,15 +3,16 @@
 
 Aus dem vorherigen Kapitel ist bereits hervorgegangen, dass die Daten in einer Datenbank gespeichert werden.
 In diesem Fall ist die Wahl auf PostgreSQL gefallen.
-PostgreSQL ist ein relationales Datenbankmanagementsystem. Es ist komplett ACID-kompatibel und speichert Daten in geordneter Form als Tabellen ab.
+PostgreSQL ist ein Open-Source, relationales Datenbankmanagementsystem \cite{noauthor_postgresql_nodate}. Es ist komplett ACID-kompatibel \cite{noauthor_postgresql_nodate} und speichert Daten in geordneter Form als Tabellen ab \cite{noauthor_51_2024}.
 Da die Datenquelle bereits als CSV geliefert wird, bietet es sich an diese in einer entsprechenden Datenbank zu speichern.
 CSV-Dateien speichern bereits Daten in Tabellenform, weswegen die Wahl direkt auf eine relationale SQL-Datenbank gefallen ist.
 
 Es gibt viele Alternativen zu PostgreSQL, diese sind aber teils kostenpflichtig oder bieten die gleichen bzw. weniger Features wie PostgreSQL.
-Datenbankmanagementsysteme wie Oracle RDBMS oder Microsoft sind für große, Enterprise-Skala Deployments konzipiert und habe relativ hohe Lizenzkosten.
-MariaDB bzw. MySQL und SQLite wären Open-Source Alternativen zu PostgreSQL, welche auch gut geeignet sind.
-SQLite jedoch bietet keine Serverfunktionalität weswegen nur lokal gearbeitet werden kann.
-MariaDB/MySQL haben keinen nennenswerten Funktionalitätsunterschied, aber wurden nicht gewählt, weil mit PostgreSQL mehr Erfahrung im Team existiert.
+Proprietäre Datenbankmanagementsysteme wie Oracle RDBMS oder Microsoft SQL-Server sind für große, Enterprise-Skala Deployments konzipiert und entsprechend kommerzielle Lizenzen \cite{noauthor_microsoft_nodate}\cite{noauthor_oracle_nodate}.
+Kostenlose Optionen sind daher bevorzugt.
+MariaDB bzw. MySQL und SQLite wären Open-Source Alternativen zu PostgreSQL, welche auch gut geeignet sind\cite{noauthor_sqlite_nodate}\cite{noauthor_mysql_nodate}.
+SQLite jedoch bietet keine Serverfunktionalität weswegen nur lokal gearbeitet werden kann\cite{noauthor_sqlite_nodate}.
+MariaDB/MySQL haben keinen nennenswerten Funktionalitätsunterschied, aber wurden nicht gewählt, weil mit PostgreSQL mehr Erfahrung im Team existiert\cite{noauthor_mysql_nodate}\cite{noauthor_postgresql_nodate-1}.
 
 Nachdem das Skript aus dem vorherigen Kapitel durchgelaufen ist, ist das Datenbankschema in Abbildung \ref{fig:datenbankschema} zu sehen.
 
