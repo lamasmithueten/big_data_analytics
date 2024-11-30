@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.11.21)  28 NOV 2024 12:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.11.21)  30 NOV 2024 15:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1071,20 +1071,6 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-! LaTeX Error: Command \Matrikelnummer already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.127 ...kelnummer}[1]{\def\DieMatrikelnummer{#1}}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
 ! LaTeX Error: Command \Studienrichtung already defined.
                Or name \end... illegal, see p.192 of the manual.
 
@@ -1132,41 +1118,41 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 1
-53.
+59.
  (/usr/share/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 ) (./master.aux)
 \openout1 = `master.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-Package scrbase Info: activating english \abstractname on input line 153.
-Package scrbase Info: activating english \partname on input line 153.
-Package scrbase Info: activating english \chaptername on input line 153.
-Package scrbase Info: activating english \appendixname on input line 153.
-Package scrbase Info: activating english \figurename on input line 153.
-Package scrbase Info: activating english \tablename on input line 153.
-Package scrbase Info: activating english \contentsname on input line 153.
-Package scrbase Info: activating english \listfigurename on input line 153.
-Package scrbase Info: activating english \listtablename on input line 153.
-Package scrbase Info: activating english \bibname on input line 153.
-Package scrbase Info: activating english \indexname on input line 153.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+Package scrbase Info: activating english \abstractname on input line 159.
+Package scrbase Info: activating english \partname on input line 159.
+Package scrbase Info: activating english \chaptername on input line 159.
+Package scrbase Info: activating english \appendixname on input line 159.
+Package scrbase Info: activating english \figurename on input line 159.
+Package scrbase Info: activating english \tablename on input line 159.
+Package scrbase Info: activating english \contentsname on input line 159.
+Package scrbase Info: activating english \listfigurename on input line 159.
+Package scrbase Info: activating english \listtablename on input line 159.
+Package scrbase Info: activating english \bibname on input line 159.
+Package scrbase Info: activating english \indexname on input line 159.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -1181,10 +1167,10 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'master.bbl' found.
  (./master.bbl)
-Package biblatex Info: Reference section=0 on input line 153.
-Package biblatex Info: Reference segment=0 on input line 153.
+Package biblatex Info: Reference section=0 on input line 159.
+Package biblatex Info: Reference segment=0 on input line 159.
 \c@lstlisting=\count446
-Package tocbasic Info: setting babel extension for `lol' on input line 153.
+Package tocbasic Info: setting babel extension for `lol' on input line 159.
 \scr@dte@lstlisting@maxnumwidth=\skip130
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -1221,7 +1207,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 153.
+Package hyperref Info: Link coloring OFF on input line 159.
  (./master.out)
 (./master.out)
 \@outlinefile=\write5
@@ -1234,7 +1220,7 @@ Class scrreprt Info: loading recommended package `bookmark'.
 (scrreprt)           `bookmarkpackage=false' before \begin{document} and
 (scrreprt)           you can avoid this message adding:
 (scrreprt)             \usepackage{bookmark}
-(scrreprt)           before \begin{document} on input line 153.
+(scrreprt)           before \begin{document} on input line 159.
  (/usr/share/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
 
@@ -1249,14 +1235,9 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 153.
+or `english'. on input line 159.
  (./titlepage.tex
-<img/firmenlogo.jpg, id=4, 310.2792pt x 254.3904pt>
-File: img/firmenlogo.jpg Graphic file (type jpg)
-<use img/firmenlogo.jpg>
-Package pdftex.def Info: img/firmenlogo.jpg  used on input line 6.
-(pdftex.def)             Requested size: 77.56961pt x 63.59744pt.
-<img/logo.jpg, id=5, 133.6995pt x 68.1747pt>
+<img/logo.jpg, id=4, 133.6995pt x 68.1747pt>
 File: img/logo.jpg Graphic file (type jpg)
 <use img/logo.jpg>
 Package pdftex.def Info: img/logo.jpg  used on input line 6.
@@ -1271,15 +1252,14 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts
-/enc/dvips/cm-super/cm-super-t1.enc} <./img/firmenlogo.jpg> <./img/logo.jpg>]) 
-(./ewerkl.tex) [1
+/enc/dvips/cm-super/cm-super-t1.enc} <./img/logo.jpg>]) (./ewerkl.tex) [1
 
 
-] (./nondisclosurenotice.tex
-[2
+] (./nondisclosurenotice.tex [2
 
 
-]) (./acknowledge.tex) [3
+]) (./acknowledge.tex)
+[3
 
 
 
@@ -1311,8 +1291,7 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 25.
 
  [5
 
-]
-(./master.lot)
+] (./master.lot)
 \tf@lot=\write8
 \openout8 = `master.lot'.
 
@@ -1346,7 +1325,7 @@ Class scrreprt Warning: \float@listhead detected!
 (scrreprt)              Loading of package `scrhack' may help to
 (scrreprt)              avoid this warning, if you are using a
 (scrreprt)              a package that still implements the
-(scrreprt)              deprecated \float@listhead interface on input line 209.
+(scrreprt)              deprecated \float@listhead interface on input line 215.
 
 
 chapter without number
@@ -1455,7 +1434,7 @@ chapter 2.
 [3
 
 ]
-<img/webseite.png, id=139, 1178.15157pt x 603.0028pt>
+<img/webseite.png, id=138, 1178.15157pt x 603.0028pt>
 File: img/webseite.png Graphic file (type png)
 <use img/webseite.png>
 Package pdftex.def Info: img/webseite.png  used on input line 24.
@@ -1497,10 +1476,10 @@ chapter B.
 chapter without number
 
 LaTeX Font Warning: Font shape `T1/cmss/m/sc' in size <12> not available
-(Font)              Font shape `T1/cmr/m/sc' tried instead on input line 266.
+(Font)              Font shape `T1/cmr/m/sc' tried instead on input line 272.
 
 
-Overfull \hbox (6.37144pt too wide) in paragraph at lines 267--267
+Overfull \hbox (6.37144pt too wide) in paragraph at lines 273--273
 \T1/cmss/m/n/12 Re-search Chal-lenges^^Q. In: \T1/cmss/m/sl/12 IEEE Ac-cess \T1
 /cmss/m/n/12 5 (2017). Con-fer-ence Name: IEEE Ac-cess, pp. 5247^^U
  []
@@ -1534,10 +1513,10 @@ Package logreq Info: Writing requests to 'master.run.xml'.
 ### simple group (level 1) entered at line 40 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 29260 strings out of 476076
- 569944 string characters out of 5793774
+ 29261 strings out of 476076
+ 569902 string characters out of 5793774
  2117187 words of memory out of 5000000
- 50814 multiletter control sequences out of 15000+600000
+ 50815 multiletter control sequences out of 15000+600000
  574303 words of font info for 68 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  108i,20n,107p,10901b,2311s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1551,10 +1530,10 @@ e/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf-dist/fo
 nts/type1/public/cm-super/sfsx1728.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/cm-super/sfsx2488.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt
 1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on master.pdf (26 pages, 490663 bytes).
+Output written on master.pdf (26 pages, 438705 bytes).
 PDF statistics:
- 507 PDF objects out of 1000 (max. 8388607)
+ 506 PDF objects out of 1000 (max. 8388607)
  444 compressed objects within 5 object streams
  181 named destinations out of 1000 (max. 500000)
- 200 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 195 words of extra memory for PDF output out of 10000 (max. 10000000)
 

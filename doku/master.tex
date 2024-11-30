@@ -93,6 +93,7 @@
 \newcommand{\NN}{{\mathbb N}}
 \newcommand{\imagedir}{img}
 \newcommand{\TitelDerArbeit}[1]{\def\DerTitelDerArbeit{#1}\hypersetup{pdftitle={#1}}}
+\newcommand{\Dozent}[1]{\def\DerDozent{#1}}
 \newcommand{\AutorDerArbeit}[1]{\def\DerAutorDerArbeit{#1}\hypersetup{pdfauthor={#1}}}
 \newcommand{\Firma}[1]{\def\DerNameDerFirma{#1}}
 \newcommand{\Kurs}[1]{\def\DieKursbezeichnung{#1}}
@@ -102,7 +103,9 @@
 \newcommand{\FirmenBetreuer}[1]{\def\DerFirmenBetreuer{#1}}
 \newcommand{\Bearbeitungszeitraum}[1]{\def\DerBearbeitungszeitraum{#1}}
 \newcommand{\Abgabedatum}[1]{\def\DasAbgabedatum{#1}}
-\newcommand{\Matrikelnummer}[1]{\def\DieMatrikelnummer{#1}}
+\newcommand{\MatrikelnummerEins}[1]{\def\DieMatrikelnummerEins{#1}}
+\newcommand{\MatrikelnummerZwei}[1]{\def\DieMatrikelnummerZwei{#1}}
+\newcommand{\MatrikelnummerDrei}[1]{\def\DieMatrikelnummerDrei{#1}}
 \newcommand{\Studienrichtung}[1]{\def\DieStudienrichtung{#1}}
 \newcommand{\ArtDerArbeit}[1]{\def\DieArtDerArbeit{#1}}
 \newcommand{\Literaturverzeichnis}{Literaturverzeichnis}
@@ -136,18 +139,21 @@
 %
 % PERSÖNLICHE ANGABEN (BITTE VOLLSTÄNDIG EINGEBEN zwischen den Klammern: {...})
 %
-\ArtDerArbeit{<Bachelor>/<Projekt>} % "Bachelor" oder "Projekt" wählen
-\TitelDerArbeit{<Titel Ihrer Arbeit>}
-\AutorDerArbeit{<Ihr Vor- und Nachname>}
+\ArtDerArbeit{Projektbericht} % "Bachelor" oder "Projekt" wählen
+\TitelDerArbeit{Intel Core I7 Prozessoren}
+\AutorDerArbeit{Moritz Werr, Phil Richter, Max Stege}
 \Abteilung{<Ihre Abteilung>}
 \Firma{<Ihre Firma>}
-\Kurs{<Ihr Kurs>}
-\Studienrichtung{<Ihre Studienrichtung>}
-\Matrikelnummer{<Ihre Martikelnummer>}
+\Kurs{TINF22AI2}
+\Studienrichtung{Angewandte Informatik}
+\MatrikelnummerEins{5401527}
+\MatrikelnummerZwei{<Ihre Martikelnummer>}
+\MatrikelnummerDrei{<Ihre Martikelnummer>}
 \Studiengangsleiter{<Ihr Studiengangsleiter>}
 \WissBetreuer{<Ihr(e) wissenschaftliche(r) Betreuer(in)>}
 \FirmenBetreuer{<Ihr(e) Firmenbetreuer(in)>}
-\Bearbeitungszeitraum{dd.mm.yyyy -- DD.MM.YYYY}
+\Dozent{Dr. Frank Schulz}
+\Bearbeitungszeitraum{01.10.2024 -- 01.12.2024}
 \Abgabedatum{dd.mm.yyyy}
 
 \begin{document}
