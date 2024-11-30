@@ -30,7 +30,7 @@ wie eine Tabelle. Im folgendem Python-Code werden die Daten wie beschrieben gela
 	basicstyle=\ttfamily,    % Use monospaced font
 }
 
-\begin{lstlisting}[caption={\texttt{visualization.ipynb}},captionpos=b]
+\begin{lstlisting}[caption={\texttt{load data from the database}},captionpos=b]
     import os
     import re
     import numpy as np
@@ -56,4 +56,34 @@ wie eine Tabelle. Im folgendem Python-Code werden die Daten wie beschrieben gela
     df = pd.read_sql(query, engine) # store the data in a dataframe
 \end{lstlisting}
 
-\section{Bereinigen der Daten}
+\section{Bereinigen der geladenen Daten}
+Auch wenn die Daten, wie im Kapitel \ref{chap:säubern} beschrieben, bereits vor dem Speichern in die Datenbank bereinigt werden, bleinen kleine
+Unreinheiten in den Daten bestehen. Daher werden bestimmte Spalten im DataFrame nochmals angepasst.
+
+Ein Beispiel dafür ist die Spalte \textit{produktsortiment}. Diese enthält die jeweilige Generation des Prozessors, welche im Datensatz in drei verschiedenen
+Schreibweisen vorkommt:
+\begin{itemize}
+    \item Die Generation als Zahl, z.B. \textit{4. Generation}
+    \item Die Generation als Zahl ausgeschrieben, z.B. \textit{vierte Generation}
+    \item Die Generation als englische Zahl, z.B. \textit{4th Generation}
+\end{itemize}
+Um die Prozessoren für die Visualisierung nach ihrer Generation Gruppieren/Sortieren zu können, wird die Spalte \textit{produktsortiment}
+in eine neue Spalte \textit{generation} umgewandelt, wobei die Schreibweise vereinheitlicht wird. Dies wird mit Hilfe der Funktion \textit{extract\_generation}
+gemacht. Der Code dazu sieht wie folgt aus:
+\begin{lstlisting}[caption={\texttt{Funktion extraxct\_generation}},captionpos=b]
+    number_words = {
+        "erste": 1, "zweite": 2, "dritte": 3, "vierte": 4, "fuenfte": 5,
+        "sechste": 6, "siebte": 7, "achte": 8, "neunte": 9, "zehnte": 10
+    }
+
+    def extract_generation(gen_text):
+        match_numeric = re.search(r'(\d+)(?:\.|th)?\s?Gen', gen_text, re.IGNORECASE)
+        if match_numeric:
+            return int(match_numeric.group(1))
+        for word, num in number_words.items():
+            if word in gen_text.lower():
+                return num
+        return None
+
+    df['generation'] = df['produktsortiment'].apply(extract_generation)
+\end{lstlisting}
