@@ -77,13 +77,30 @@ gemacht. Der Code dazu sieht wie folgt aus:
     }
 
     def extract_generation(gen_text):
+        # match the numeric generation
         match_numeric = re.search(r'(\d+)(?:\.|th)?\s?Gen', gen_text, re.IGNORECASE)
         if match_numeric:
+            # return the numeric generation
             return int(match_numeric.group(1))
-        for word, num in number_words.items():
-            if word in gen_text.lower():
-                return num
-        return None
+    for word, num in number_words.items():
+        # check if the word is in the text
+        if word in gen_text.lower(): 
+            return num # return the number
+    return None
 
-    df['generation'] = df['produktsortiment'].apply(extract_generation)
+    # extract the generation from the produktsortiment column
+    df['generation'] = df['produktsortiment'].apply(extract_generation) 
 \end{lstlisting}
+
+Im Code wird zuerst ein Dictionary \textit{number\_words} definiert, welches die Zahlenwörter auf die entsprechende Zahl abbildet.
+Anschließend wird die Funktion \textit{extract\_generation} definiert, welche einen String als Parameter erwartet und die Prozessor-Generation aus dem Text extrahiert.
+Dabei wird zuerst mit Hilfe eines regulären Ausdrucks, faslls vorhanden, die numerische Generation extrahiert. Ein regulärer Ausdruck ist dabei eine Zeichenkette,
+die ein bestimmtes Suchmuster für ein gegebenen String definiert.
+Der in der Funktion verwendete reguläre Ausdruck "\textit{(\textbackslash d+)(?:\.|th)?\textbackslash s?Gen}" sucht nach einer Zahl gefolgt von einem Punkt oder \textit{th},
+sowie einem Leerzeichen und den Buchstaben \textit{Gen}. Falls dabei ein übereinstimmender Text gefunden wird, wird dieser zurückgegeben. Anderenfalls wird
+überprüft, ob eines der im Dictionary definierten Wörter im Text vorkommt. Falls ja, wird die entsprechende Zahl zurückgegeben.
+Abschließend wird die Funktion auf die Spalte \textit{produktsortiment} angewendet und das Ergebnis in der neuen Spalte \textit{generation} gespeichert, welche nur noch die
+Generation als Zahl enthält.
+Die neue Spalte kann wie jede andere Spalte im DataFrame zur Visualisierung verwendet werden.
+
+\section{Erstellen von Graphen}
