@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.30)  30 NOV 2024 20:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.30)  30 NOV 2024 20:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -926,6 +926,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ] (master.lol
 Package tocbasic Info: Using my definition of `\numberline' on input line 4.
 Package tocbasic Info: Using my definition of `\numberline' on input line 6.
+Package tocbasic Info: Using my definition of `\numberline' on input line 9.
 )
 \tf@lol=\write6
 \openout6 = `master.lol'.
@@ -980,7 +981,7 @@ chapter 2.
 [3
 
 ]
-<img/webseite.png, id=56, 1178.15157pt x 603.0028pt>
+<img/webseite.png, id=58, 1178.15157pt x 603.0028pt>
 File: img/webseite.png Graphic file (type png)
 <use img/webseite.png>
 Package pdftex.def Info: img/webseite.png  used on input line 24.
@@ -1010,7 +1011,7 @@ Overfull \hbox (1.22198pt too wide) in paragraph at lines 4--7
 
 [9]
 chapter 4.
-<img/datenbank_schema.png, id=225, 718.93594pt x 414.04688pt>
+<img/datenbank_schema.png, id=227, 718.93594pt x 414.04688pt>
 File: img/datenbank_schema.png Graphic file (type png)
 <use img/datenbank_schema.png>
 Package pdftex.def Info: img/datenbank_schema.png  used on input line 21.
@@ -1023,29 +1024,31 @@ Package pdftex.def Info: img/datenbank_schema.png  used on input line 21.
 
 [11 <./img/datenbank_schema.png>]
 chapter 5.
-) (conclusion.tex
+
 
 [12
 
-]
+]) (conclusion.tex
+
+[13]
 chapter 6.
 ) (appendix1.tex
 
-[13
+[14
 
 ]
 chapter A.
 )
 
-[14
+[15
 
 ] (appendix2.tex
 
-[15]
+[16]
 chapter B.
 )
 
-[16
+[17
 
 ]
 chapter without number
@@ -1055,7 +1058,7 @@ LaTeX Font Warning: Font shape `T1/cmss/m/sc' in size <12> not available
 
 
 
-[17
+[18
 
 ]
 No file master.ind.
@@ -1064,15 +1067,8 @@ No file master.ind.
 LaTeX2e <2024-11-01>
 L3 programming layer <2024-11-02>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `master.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-Package biblatex Warning: Please rerun LaTeX.
-
 Package logreq Info: Writing requests to 'master.run.xml'.
 \openout1 = `master.run.xml'.
 
@@ -1082,17 +1078,17 @@ Package logreq Info: Writing requests to 'master.run.xml'.
 ### simple group (level 1) entered at line 40 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 29562 strings out of 473681
- 584471 string characters out of 5719670
- 1806731 words of memory out of 5000000
- 52119 multiletter control sequences out of 15000+600000
+ 29589 strings out of 473681
+ 584868 string characters out of 5719670
+ 1807207 words of memory out of 5000000
+ 52120 multiletter control sequences out of 15000+600000
  573532 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,20n,107p,10985b,2316s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi450\ecss0800.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss1200.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1000.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0800.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsi1200.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx2488.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1200.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1728.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1440.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk>
-Output written on master.pdf (20 pages, 500351 bytes).
+Output written on master.pdf (21 pages, 508291 bytes).
 PDF statistics:
- 945 PDF objects out of 1000 (max. 8388607)
- 174 named destinations out of 1000 (max. 500000)
- 176 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 989 PDF objects out of 1000 (max. 8388607)
+ 200 named destinations out of 1000 (max. 500000)
+ 184 words of extra memory for PDF output out of 10000 (max. 10000000)
 
