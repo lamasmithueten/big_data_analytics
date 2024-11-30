@@ -1,0 +1,22 @@
+% !TEX root =  master.tex
+\chapter{Visualisieren der Daten (Phil Richter)}
+Nach der Bereinigung und dem Speichern der Daten in einer Datenbank, wie in den vorherigen Kapiteln beschrieben, können die Daten visualisiert werden. Dafür wird als Grundlage
+die Programmiersprache Python verwendet. Diese ist vorallem im Bereich der Datenanalyse und -visualisierung sehr weit verbreitet.
+
+Für das Laden und Visualisiern der Daten werden folgende Packages verwendet:
+\begin{table}[h!]
+    \centering
+    \begin{tabularx}{\textwidth}{|c|c|>{\centering\arraybackslash}X|}
+        \hline
+        \textbf{Package} & \textbf{Version} & \textbf{Beschreibung} \\ \hline
+        dotenv & 1.0.1 & Lädt Umgebungsvariablen aus einer \textit{.env} Datei \\ \hline
+        sqlalchemy & 2.0.36 & Ermöglicht Zugriff auf die Datenbank, sowie Datenbankabfragen \\ \hline
+        pandas & 2.2.3 & Ermöglicht die Manipulation, Analyse und Verarbeitung von Daten \\ \hline
+        matplotlib & 3.9.2 & Erstellt aus gegebenen Daten anpassbare Diagramme \\ \hline
+        seaborn & 0.13.2 & Basiert auf \textit{matplotlib} und wird ebenfalls zur Datenvisualisierung verwendet \\ \hline
+    \end{tabularx}
+    \caption{Auflistung aller verwendeten Packages, sowie ihrer Versionen}
+\end{table}
+
+\section{Laden der Daten}
+Im ersten Schritt der Visualisieren
