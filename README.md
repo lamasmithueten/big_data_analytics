@@ -19,3 +19,6 @@ In diesem Projekt haben wir Prozessordaten aller Intel i7-Prozessoren bereinigt,
 
 ### Datenanalyse und Visualisierung
 - **Python**: Visualisierungen wurden mit `Matplotlib`, `Seaborn` und `Pandas` erstellt. Python ermöglichte den Zugriff auf die Datenbank und eine anschauliche Darstellung der Ergebnisse.
+
+## Dokumentation
+Die Dokumentation ist im Ordner "doku" zu finden (master.pdf) und ebenfalls auf Moodle hochgeladen.
