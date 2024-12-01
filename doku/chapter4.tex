@@ -18,7 +18,7 @@ Für das Laden und Visualisiern der Daten werden folgende Packages verwendet:
     \caption{Auflistung aller verwendeten Packages, sowie ihrer Versionen}
 \end{table}
 
-\section{Laden der Daten}
+\section{Laden der Daten}\label{sec:laden}
 Im ersten Schritt der Visualisieren werden die Daten aus der Datenbank geladen. Dafür werden die Datenbankverbindungsinformationen mit Hilfe von \textit{dotenv}
 aus einer lokal definierten \textit{.env} Datei geladen. Anschließend wird mit \textit{sqlalchemy} eine Verbindung zur Datenbank aufgebaut und die Daten werden 
 mit einer SQL-Querry abgefragt. Die abgefrageten Daten werden in einem \textit{pandas} DataFrame gespeichert. Ein DataFrame ist dabei eine zweidimensionale Datenstruktur,
@@ -56,7 +56,7 @@ wie eine Tabelle. Im folgendem Python-Code werden die Daten wie beschrieben gela
     df = pd.read_sql(query, engine) # store the data in a dataframe
 \end{lstlisting}
 
-\section{Bereinigen der geladenen Daten}
+\section{Bereinigen der geladenen Daten}\label{sec:bereinigen}
 Auch wenn die Daten, wie im Kapitel \ref{chap:säubern} beschrieben, bereits vor dem Speichern in die Datenbank bereinigt werden, bleinen kleine
 Unreinheiten in den Daten bestehen. Daher werden bestimmte Spalten im DataFrame nochmals angepasst.
 
@@ -104,3 +104,33 @@ Generation als Zahl enthält.
 Die neue Spalte kann wie jede andere Spalte im DataFrame zur Visualisierung verwendet werden.
 
 \section{Erstellen von Graphen}
+Nachdem die Daten geladen und bereinigt wurden, können diese nun visualisiert werden. Dafür wird das Package \textit{matplotlib}, sowie \textit{seaborn} verwendet.
+Diese sind sehr weit verbreitet und bieten eine Vielzahl an Möglichkeiten, um Daten zu visualisieren. Mit ihnen können verschiedene Diagramme wie Histrogramme,
+Scatterplots, Balkendiagramme und viele mehr erstellt werden. Im folgenden ist ein Beispiel für ein Scatterplot und dessen Code dargestellt:
+
+\begin{figure}[H]
+	\centering 
+	\includegraphics[width=\textwidth]{\imagedir/Scatterplot_Grundtaktfrequenz_vs_Turbotaktfrequenz.png} 
+	\captionsetup{format=hang}
+	\caption[Scatterplot]{\label{fig:scatterplot_Grundtaktfrequenz}Scatterplot erstellt mit \textit{matplotlib} und \textit{seaborn}}
+\end{figure}
+
+\begin{lstlisting}[caption={\texttt{Code für den Scatterplot in Figur 5.1}},captionpos=b]
+    plt.figure(figsize=(10, 6))
+    sn.scatterplot(data=df, x='grundtaktfrequenz_des_prozessors_GHz', y='max_turbo_taktfrequenz_GHz', hue='generation')
+    plt.title("Grundtaktfrequenz vs. Turbotaktfrequenz", fontsize=16)
+    plt.legend(title='Generation des Prozessors', fontsize=10, title_fontsize=12)
+    plt.xlabel("Grundtaktfrequenz [GHz]", fontsize=12)
+    plt.ylabel("Turbotaktfrequenz (GHz)", fontsize=12)
+    plt.show()
+\end{lstlisting}
+
+Im Code wird zuerst ein neues Diagramm mit der Funktion \textit{plt.figure()} erstellt. Dabei wird die Größe des Diagramms auf 10x6 Zoll festgelegt. In Zeile
+zwei wird mit der Funktion \textit{sn.scatterplot()} bereits der Scatterplot erstellt. Dabei wird als Datenquelle das im Kapitel \ref{sec:laden} erstellte DataFrame
+\textit{df} verwendet. Die x-Achse wird mit der Spalte \textit{grundtaktfrequenz\_des\_prozessors\_GHz} und die y-Achse mit der Spalte \textit{max\_turbo\_taktfrequenz\_GHz}
+belegt. Die Farbe des Punktes repräsentiert die Generation des Prozessors, welche in der im Kapitel \ref{sec:bereinigen} erstellten Spalte \textit{generation} gespeichert ist.
+In den Spalten drei bis sechs werden der Titel, die Legende, sowie die Beschriftungen der x- und y-Achse festgelegt. Mit der Funktion \textit{plt.show()} in Spalte sieben wird
+das Diagramm angezeigt.
+
+Das Diagramm in Abbildung \ref{fig:scatterplot_Grundtaktfrequenz} vergleicht die Grundtaktfrequenz der Prozessoren mit ihrer Turbotaktfrequenz im verlauf der
+verschiedenen Prozessoren-Generationen.

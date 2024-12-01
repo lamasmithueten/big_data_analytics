@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.30)  1 DEC 2024 00:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.30)  1 DEC 2024 20:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -928,6 +928,7 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 4.
 Package tocbasic Info: Using my definition of `\numberline' on input line 6.
 Package tocbasic Info: Using my definition of `\numberline' on input line 9.
 Package tocbasic Info: Using my definition of `\numberline' on input line 10.
+Package tocbasic Info: Using my definition of `\numberline' on input line 11.
 )
 \tf@lol=\write6
 \openout6 = `master.lol'.
@@ -982,7 +983,7 @@ chapter 2.
 [3
 
 ]
-<img/webseite.png, id=60, 1178.15157pt x 603.0028pt>
+<img/webseite.png, id=62, 1178.15157pt x 603.0028pt>
 File: img/webseite.png Graphic file (type png)
 <use img/webseite.png>
 Package pdftex.def Info: img/webseite.png  used on input line 24.
@@ -1012,7 +1013,7 @@ Overfull \hbox (1.22198pt too wide) in paragraph at lines 5--8
 
 [9]
 chapter 4.
-<img/datenbank_schema.png, id=229, 718.93594pt x 414.04688pt>
+<img/datenbank_schema.png, id=231, 718.93594pt x 414.04688pt>
 File: img/datenbank_schema.png Graphic file (type png)
 <use img/datenbank_schema.png>
 Package pdftex.def Info: img/datenbank_schema.png  used on input line 21.
@@ -1031,29 +1032,37 @@ chapter 5.
 
 ]
 
-[13]) (conclusion.tex
+[13]
 
 [14]
+<img/Scatterplot_Grundtaktfrequenz_vs_Turbotaktfrequenz.png, id=310, 613.0905pt x 399.4122pt>
+File: img/Scatterplot_Grundtaktfrequenz_vs_Turbotaktfrequenz.png Graphic file (type png)
+<use img/Scatterplot_Grundtaktfrequenz_vs_Turbotaktfrequenz.png>
+Package pdftex.def Info: img/Scatterplot_Grundtaktfrequenz_vs_Turbotaktfrequenz.png  used on input line 113.
+(pdftex.def)             Requested size: 452.3988pt x 294.73764pt.
 
-[15]
+
+[15 <./img/Scatterplot_Grundtaktfrequenz_vs_Turbotaktfrequenz.png>]) (conclusion.tex
+
+[16]
 chapter 6.
 ) (appendix1.tex
 
-[16
+[17
 
 ]
 chapter A.
 )
 
-[17
+[18
 
 ] (appendix2.tex
 
-[18]
+[19]
 chapter B.
 )
 
-[19
+[20
 
 ]
 chapter without number
@@ -1063,7 +1072,7 @@ LaTeX Font Warning: Font shape `T1/cmss/m/sc' in size <12> not available
 
 
 
-[20
+[21
 
 ]
 No file master.ind.
@@ -1083,17 +1092,17 @@ Package logreq Info: Writing requests to 'master.run.xml'.
 ### simple group (level 1) entered at line 40 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 29615 strings out of 473681
- 585230 string characters out of 5719670
- 1807262 words of memory out of 5000000
- 52123 multiletter control sequences out of 15000+600000
+ 29636 strings out of 473681
+ 585898 string characters out of 5719670
+ 1807407 words of memory out of 5000000
+ 52134 multiletter control sequences out of 15000+600000
  573532 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,20n,107p,10985b,2317s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi450\ecss0800.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss1200.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1000.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0800.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsi1200.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx2488.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1200.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1728.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1440.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk>
-Output written on master.pdf (23 pages, 520165 bytes).
+Output written on master.pdf (24 pages, 633293 bytes).
 PDF statistics:
- 1040 PDF objects out of 1200 (max. 8388607)
- 223 named destinations out of 1000 (max. 500000)
- 192 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1063 PDF objects out of 1200 (max. 8388607)
+ 233 named destinations out of 1000 (max. 500000)
+ 197 words of extra memory for PDF output out of 10000 (max. 10000000)
 
