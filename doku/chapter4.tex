@@ -1,7 +1,10 @@
 % !TEX root =  master.tex
 \chapter{Visualisieren der Daten (Phil Richter)}
 Nach der Bereinigung und dem Speichern der Daten in einer Datenbank, wie in den vorherigen Kapiteln beschrieben, können die Daten visualisiert werden. Dafür wird als Grundlage
-die Programmiersprache Python verwendet. Diese ist vorallem im Bereich der Datenanalyse und -visualisierung sehr weit verbreitet.
+die Programmiersprache Python verwendet. Diese ist vorallem im Bereich der Datenanalyse und -visualisierung sehr weit verbreitet \cite{noauthor_most_nodate, noauthor_popular_nodate}.
+Eine alternative Möglichkeit wäre die Verwendung von R, welches ebenfalls sehr weit verbreitet ist und speziell für die Datenanalyse entwickelt wurde \cite{noauthor_r_nodate}.
+Zudem wurde R bereits für die Säuberung der Daten, wie im Kapitel \ref{chap:säubern} beschrieben, verwendet. Da im Team allerdings mehr Erfahrung mit Python vorhanden war,
+wurde sich bei der Visualsierung für die Verwendung von Python entschieden.
 
 Für das Laden und Visualisiern der Daten werden folgende Packages verwendet:
 \begin{table}[h!]
@@ -20,14 +23,18 @@ Für das Laden und Visualisiern der Daten werden folgende Packages verwendet:
 
 \section{Laden der Daten (Phil Richter)}\label{sec:laden}
 Im ersten Schritt der Visualisieren werden die Daten aus der Datenbank geladen. Dafür werden die Datenbankverbindungsinformationen mit Hilfe von \textit{dotenv}
-aus einer lokal definierten \textit{.env} Datei geladen. Anschließend wird mit \textit{sqlalchemy} eine Verbindung zur Datenbank aufgebaut und die Daten werden 
-mit einer SQL-Querry abgefragt. Die abgefrageten Daten werden in einem \textit{pandas} DataFrame gespeichert. Ein DataFrame ist dabei eine zweidimensionale Datenstruktur,
-wie eine Tabelle. Im folgendem Python-Code werden die Daten wie beschrieben geladen:
+\cite{noauthor_python-dotenv_nodate} aus einer lokal definierten \textit{.env} Datei geladen. Es werden in diesem Fall Umgebungsvariablen verwendet, damit die
+Verbindungsinformationen nicht im Code hart codiert sind und somit nicht versehentlich veröffentlicht werden.
+Nach dem Laden der Variablen wird mit \textit{sqlalchemy} \cite{noauthor_sqlalchemy_nodate} eine Verbindung zur Datenbank aufgebaut und die Daten werden mit einer
+SQL-Querry abgefragt \cite{noauthor_orm_nodate}.
+Die abgefrageten Daten werden in einem \textit{pandas} \cite{noauthor_pandas_nodate} DataFrame gespeichert. Ein DataFrame ist dabei eine zweidimensionale Datenstruktur,
+wie eine Tabelle \cite{noauthor_pandasdataframe_nodate}. Das DataFrame wird verwendet, um die Daten vor der Visualisierung manipulieren zu können, ohne die Originaldaten zu verändern.
+Im folgendem Python-Code werden die Daten wie beschrieben geladen:
 
 \lstset{
-	breaklines=true,         % Enable line wrapping
-	breakatwhitespace=false, % Allow breaks at any character (not just whitespace)
-	basicstyle=\ttfamily,    % Use monospaced font
+	breaklines=true,         
+	breakatwhitespace=false,
+	basicstyle=\ttfamily,    
 }
 
 \begin{lstlisting}[caption={\texttt{load data from the database}},captionpos=b]

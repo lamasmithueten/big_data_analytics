@@ -36,7 +36,7 @@
       \field{dateera}{ce}
       \field{urldateera}{ce}
       \verb{file}
-      \verb Snapshot:/home/moritzwerr/Zotero/storage/XLHYHVC5/ddl-basics.html:text/html
+      \verb Snapshot:C\:\\Users\\Phil\\Zotero\\storage\\XLHYHVC5\\ddl-basics.html:text/html
       \endverb
       \verb{urlraw}
       \verb https://www.postgresql.org/docs/17/ddl-basics.html
@@ -55,7 +55,7 @@
       \field{urlyear}{2024}
       \field{urldateera}{ce}
       \verb{file}
-      \verb awk(1)\: pattern scanning/processing - Linux man page:/home/moritzwerr/Zotero/storage/X63KIU3W/awk.html:text/html
+      \verb awk(1)\: pattern scanning/processing - Linux man page:C\:\\Users\\Phil\\Zotero\\storage\\X63KIU3W\\awk.html:text/html
       \endverb
       \verb{urlraw}
       \verb https://linux.die.net/man/1/awk
@@ -121,7 +121,7 @@
       \verb 10.1007/978-3-319-06245-7
       \endverb
       \verb{file}
-      \verb PDF:/home/moritzwerr/Zotero/storage/MFSWYQXY/Chen et al. - 2014 - Big Data Related Technologies, Challenges and Future Prospects.pdf:application/pdf
+      \verb PDF:C\:\\Users\\Phil\\Zotero\\storage\\MFSWYQXY\\Chen et al. - 2014 - Big Data Related Technologies, Challenges and Future Prospects.pdf:application/pdf
       \endverb
       \verb{urlraw}
       \verb https://link.springer.com/10.1007/978-3-319-06245-7
@@ -162,7 +162,7 @@
       \field{dateera}{ce}
       \field{urldateera}{ce}
       \verb{file}
-      \verb Snapshot:/home/moritzwerr/Zotero/storage/QV76EQPZ/introduction-to-the-r-programming-language.html:text/html
+      \verb Snapshot:C\:\\Users\\Phil\\Zotero\\storage\\QV76EQPZ\\introduction-to-the-r-programming-language.html:text/html
       \endverb
       \verb{urlraw}
       \verb https://mlconference.ai/blog/introduction-to-the-r-programming-language/
@@ -202,7 +202,7 @@
       \field{dateera}{ce}
       \field{urldateera}{ce}
       \verb{file}
-      \verb Intel_UPE_ComparisonChart_2024_11_04_i7:/home/moritzwerr/Zotero/storage/6JEX96KG/Intel_UPE_ComparisonChart_2024_11_04_i7.csv:text/csv;Snapshot:/home/moritzwerr/Zotero/storage/MJG77FJU/compare.html:text/html
+      \verb Intel_UPE_ComparisonChart_2024_11_04_i7:C\:\\Users\\Phil\\Zotero\\storage\\6JEX96KG\\Intel_UPE_ComparisonChart_2024_11_04_i7.csv:text/csv;Snapshot:C\:\\Users\\Phil\\Zotero\\storage\\MJG77FJU\\compare.html:text/html
       \endverb
       \verb{urlraw}
       \verb https://www.intel.de/content/www/de/de/products/compare.html?productIds=212279,212280,212047,212048,212251,199325,199335,199314,199316,199318,191048,191792,193738,190885,186604,148263,140642,126684,97129,93339,88200,88195,87718,88040,80807,80808,80809,80814,80806,77656,76642,75121,75122,75123,75124,75125,236781,236794,236854,236783,236789,230492,230490,230491,230500,230489,134596,134591,134592,134594,134595,129948,126686,97122,97128,88196
@@ -221,7 +221,7 @@
       \field{urlyear}{2024}
       \field{urldateera}{ce}
       \verb{file}
-      \verb janitor package - RDocumentation:/home/moritzwerr/Zotero/storage/PEBPINRZ/2.2.html:text/html
+      \verb janitor package - RDocumentation:C\:\\Users\\Phil\\Zotero\\storage\\PEBPINRZ\\2.2.html:text/html
       \endverb
       \verb{urlraw}
       \verb https://www.rdocumentation.org/packages/janitor/versions/2.2.0
@@ -300,7 +300,7 @@
       \verb 10.1109/ACCESS.2017.2689040
       \endverb
       \verb{file}
-      \verb Full Text PDF:/home/moritzwerr/Zotero/storage/FD77XNDJ/Marjani et al. - 2017 - Big IoT Data Analytics Architecture, Opportunities, and Open Research Challenges.pdf:application/pdf;IEEE Xplore Abstract Record:/home/moritzwerr/Zotero/storage/QLHI8GAC/7888916.html:text/html
+      \verb Full Text PDF:C\:\\Users\\Phil\\Zotero\\storage\\FD77XNDJ\\Marjani et al. - 2017 - Big IoT Data Analytics Architecture, Opportunities, and Open Research Challenges.pdf:application/pdf;IEEE Xplore Abstract Record:C\:\\Users\\Phil\\Zotero\\storage\\QLHI8GAC\\7888916.html:text/html
       \endverb
       \verb{urlraw}
       \verb https://ieeexplore.ieee.org/abstract/document/7888916
@@ -308,7 +308,7 @@
       \verb{url}
       \verb https://ieeexplore.ieee.org/abstract/document/7888916
       \endverb
-      \keyw{Big data,Big Data,Business,Computer architecture,Data analysis,data analytics,Data mining,distributed computing,Internet of Things,Sensors,smart city,Tools}
+      \keyw{Big data,Tools,Big Data,Business,Computer architecture,Data analysis,data analytics,Data mining,distributed computing,Internet of Things,Sensors,smart city}
     \endentry
     \entry{noauthor_microsoft_nodate}{online}{}{}
       \field{sortinit}{M}
@@ -320,13 +320,35 @@
       \field{urlyear}{2024}
       \field{urldateera}{ce}
       \verb{file}
-      \verb Microsoft SQL Server System Properties:/home/moritzwerr/Zotero/storage/YZ486778/Microsoft+SQL+Server.html:text/html
+      \verb Microsoft SQL Server System Properties:C\:\\Users\\Phil\\Zotero\\storage\\YZ486778\\Microsoft+SQL+Server.html:text/html
       \endverb
       \verb{urlraw}
       \verb https://db-engines.com/en/system/Microsoft+SQL+Server
       \endverb
       \verb{url}
       \verb https://db-engines.com/en/system/Microsoft+SQL+Server
+      \endverb
+    \endentry
+    \entry{noauthor_most_nodate}{online}{}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The statistic displays the most wanted data science skills in the United States as of April 2019.}
+      \field{langid}{english}
+      \field{title}{Most wanted data science skills U.S. 2019}
+      \field{titleaddon}{Statista}
+      \field{urlday}{1}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Phil\\Zotero\\storage\\VCKEHZV4\\united-states-wanted-data-science-skills.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.statista.com/statistics/1016247/united-states-wanted-data-science-skills/
+      \endverb
+      \verb{url}
+      \verb https://www.statista.com/statistics/1016247/united-states-wanted-data-science-skills/
       \endverb
     \endentry
     \entry{noauthor_mysql_nodate}{online}{}{}
@@ -339,7 +361,7 @@
       \field{urlyear}{2024}
       \field{urldateera}{ce}
       \verb{file}
-      \verb MySQL System Properties:/home/moritzwerr/Zotero/storage/66ZNP7SQ/MySQL.html:text/html
+      \verb MySQL System Properties:C\:\\Users\\Phil\\Zotero\\storage\\66ZNP7SQ\\MySQL.html:text/html
       \endverb
       \verb{urlraw}
       \verb https://db-engines.com/en/system/MySQL
@@ -358,13 +380,92 @@
       \field{urlyear}{2024}
       \field{urldateera}{ce}
       \verb{file}
-      \verb Oracle System Properties:/home/moritzwerr/Zotero/storage/C29PHLBJ/Oracle.html:text/html
+      \verb Oracle System Properties:C\:\\Users\\Phil\\Zotero\\storage\\C29PHLBJ\\Oracle.html:text/html
       \endverb
       \verb{urlraw}
       \verb https://db-engines.com/en/system/Oracle
       \endverb
       \verb{url}
       \verb https://db-engines.com/en/system/Oracle
+      \endverb
+    \endentry
+    \entry{noauthor_orm_nodate}{online}{}{}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labeltitlesource}{title}
+      \field{title}{{ORM} Quick Start — {SQLAlchemy} 2.0 Documentation}
+      \field{urlday}{1}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb ORM Quick Start — SQLAlchemy 2.0 Documentation:C\:\\Users\\Phil\\Zotero\\storage\\23TVYCFP\\quickstart.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://docs.sqlalchemy.org/en/20/orm/quickstart.html
+      \endverb
+      \verb{url}
+      \verb https://docs.sqlalchemy.org/en/20/orm/quickstart.html
+      \endverb
+    \endentry
+    \entry{noauthor_pandas_nodate}{online}{}{}
+      \field{sortinit}{p}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeltitlesource}{title}
+      \field{title}{pandas - Python Data Analysis Library}
+      \field{urlday}{1}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb pandas - Python Data Analysis Library:C\:\\Users\\Phil\\Zotero\\storage\\H6ZQWS7M\\pandas.pydata.org.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://pandas.pydata.org/
+      \endverb
+      \verb{url}
+      \verb https://pandas.pydata.org/
+      \endverb
+    \endentry
+    \entry{noauthor_pandasdataframe_nodate}{online}{}{}
+      \field{sortinit}{p}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeltitlesource}{title}
+      \field{title}{pandas.{DataFrame} — pandas 2.2.3 documentation}
+      \field{urlday}{1}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb pandas.DataFrame — pandas 2.2.3 documentation:C\:\\Users\\Phil\\Zotero\\storage\\KY7R25NY\\pandas.DataFrame.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html#pandas.DataFrame
+      \endverb
+      \verb{url}
+      \verb https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html#pandas.DataFrame
+      \endverb
+    \endentry
+    \entry{noauthor_popular_nodate}{online}{}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A tech stack represents a combination of technologies a company uses in order to build and run an application or project.}
+      \field{langid}{english}
+      \field{title}{Popular technologies in the data science tech stack 2024}
+      \field{titleaddon}{Statista}
+      \field{urlday}{1}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Phil\\Zotero\\storage\\NX5Q6NLP\\popular-technologies-in-the-data-science-tech-stack.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.statista.com/statistics/1292394/popular-technologies-in-the-data-science-tech-stack/
+      \endverb
+      \verb{url}
+      \verb https://www.statista.com/statistics/1292394/popular-technologies-in-the-data-science-tech-stack/
       \endverb
     \endentry
     \entry{noauthor_postgresql_nodate-1}{online}{}{}
@@ -377,7 +478,7 @@
       \field{urlyear}{2024}
       \field{urldateera}{ce}
       \verb{file}
-      \verb PostgreSQL System Properties:/home/moritzwerr/Zotero/storage/8X75WF6U/PostgreSQL.html:text/html
+      \verb PostgreSQL System Properties:C\:\\Users\\Phil\\Zotero\\storage\\8X75WF6U\\PostgreSQL.html:text/html
       \endverb
       \verb{urlraw}
       \verb https://db-engines.com/en/system/PostgreSQL
@@ -396,7 +497,7 @@
       \field{urlyear}{2024}
       \field{urldateera}{ce}
       \verb{file}
-      \verb PostgreSQL\: About:/home/moritzwerr/Zotero/storage/CDJ7PDPU/about.html:text/html
+      \verb PostgreSQL\: About:C\:\\Users\\Phil\\Zotero\\storage\\CDJ7PDPU\\about.html:text/html
       \endverb
       \verb{urlraw}
       \verb https://www.postgresql.org/about/
@@ -404,6 +505,28 @@
       \verb{url}
       \verb https://www.postgresql.org/about/
       \endverb
+    \endentry
+    \entry{noauthor_python-dotenv_nodate}{software}{}{}
+      \field{sortinit}{p}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeltitlesource}{shorttitle}
+      \field{shorttitle}{python-dotenv}
+      \field{title}{python-dotenv: Read key-value pairs from a .env file and set them as environment variables}
+      \field{urlday}{1}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{version}{1.0.1}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Phil\\Zotero\\storage\\B6XLKTQF\\python-dotenv.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://github.com/theskumar/python-dotenv
+      \endverb
+      \verb{url}
+      \verb https://github.com/theskumar/python-dotenv
+      \endverb
+      \keyw{configurations,,deployments,,dotenv,,env,,environment variables,,python,settings,,System - Systems Administration,Utilities}
     \endentry
     \entry{noauthor_r_nodate}{online}{}{}
       \field{sortinit}{R}
@@ -415,13 +538,34 @@
       \field{urlyear}{2024}
       \field{urldateera}{ce}
       \verb{file}
-      \verb R\: What is R?:/home/moritzwerr/Zotero/storage/GURS6QAD/about.html:text/html
+      \verb R\: What is R?:C\:\\Users\\Phil\\Zotero\\storage\\GURS6QAD\\about.html:text/html
       \endverb
       \verb{urlraw}
       \verb https://www.r-project.org/about.html
       \endverb
       \verb{url}
       \verb https://www.r-project.org/about.html
+      \endverb
+    \endentry
+    \entry{noauthor_sqlalchemy_nodate}{online}{}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Database Toolkit for Python}
+      \field{langid}{english}
+      \field{title}{{SQLAlchemy}}
+      \field{urlday}{1}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Phil\\Zotero\\storage\\QPQ7U4ER\\www.sqlalchemy.org.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sqlalchemy.org
+      \endverb
+      \verb{url}
+      \verb https://www.sqlalchemy.org
       \endverb
     \endentry
     \entry{noauthor_sqlite_nodate}{online}{}{}
