@@ -1,17 +1,17 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [0] Config.pm:311> INFO - Logfile is 'master.blg'
-[103] biber-MSWIN64:340> INFO - === 
-[157] Biber.pm:420> INFO - Reading 'master.bcf'
-[257] Biber.pm:991> INFO - Using all citekeys in bib section 0
-[269] Biber.pm:4463> INFO - Processing section 0
-[281] Biber.pm:4654> INFO - Looking for bibtex file 'bibliography.bib' for section 0
-[365] bibtex.pm:1713> INFO - LaTeX decoding ...
-[395] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography.bib'
-[477] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[478] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[478] Biber.pm:4283> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[478] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
-[495] bbl.pm:676> INFO - Writing 'master.bbl' with encoding 'UTF-8'
-[502] bbl.pm:779> INFO - Output to master.bbl
-[503] Biber.pm:131> WARN - ISBN '978-3-319-06244-0 978-3-319-06245-7' in entry 'chen_big_2014' is invalid - run biber with '--validate_datamodel' for details.
-[503] Biber.pm:133> INFO - WARNINGS: 1
+[127] biber-MSWIN64:340> INFO - === 
+[169] Biber.pm:420> INFO - Reading 'master.bcf'
+[286] Biber.pm:991> INFO - Using all citekeys in bib section 0
+[298] Biber.pm:4463> INFO - Processing section 0
+[310] Biber.pm:4654> INFO - Looking for bibtex file 'bibliography.bib' for section 0
+[386] bibtex.pm:1713> INFO - LaTeX decoding ...
+[421] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography.bib'
+[524] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[524] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[524] Biber.pm:4283> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[525] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[544] bbl.pm:676> INFO - Writing 'master.bbl' with encoding 'UTF-8'
+[556] bbl.pm:779> INFO - Output to master.bbl
+[556] Biber.pm:131> WARN - ISBN '978-3-319-06244-0 978-3-319-06245-7' in entry 'chen_big_2014' is invalid - run biber with '--validate_datamodel' for details.
+[556] Biber.pm:133> INFO - WARNINGS: 1

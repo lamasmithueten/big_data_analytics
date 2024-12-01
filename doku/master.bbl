@@ -191,6 +191,29 @@
       \verb https://link.springer.com/10.1007/978-3-319-06245-7
       \endverb
     \endentry
+    \entry{noauthor_data_nodate}{online}{}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Learn what is data visualization in python and how to create customized data along with its libraries, graphs, charts, histogram and more. Keep on reading to know more!}
+      \field{langid}{american}
+      \field{shorttitle}{Data Visualization in Python}
+      \field{title}{Data Visualization in Python: Overview, Libraries \& Graphs {|} Simplilearn}
+      \field{titleaddon}{Simplilearn.com}
+      \field{urlday}{1}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Phil\\Zotero\\storage\\889LJ97L\\data-visualization-in-python.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.simplilearn.com/tutorials/python-tutorial/data-visualization-in-python
+      \endverb
+      \verb{url}
+      \verb https://www.simplilearn.com/tutorials/python-tutorial/data-visualization-in-python
+      \endverb
+    \endentry
     \entry{ewendorf_algorithmic_2019}{online}{}{}
       \name{author}{1}{}{%
         {{hash=d654abc0bb0e79819d1edfa19b49805d}{%
@@ -230,6 +253,25 @@
       \endverb
       \verb{url}
       \verb https://mlconference.ai/blog/introduction-to-the-r-programming-language/
+      \endverb
+    \endentry
+    \entry{noauthor_example_nodate}{online}{}{}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labeltitlesource}{title}
+      \field{title}{Example gallery — seaborn 0.13.2 documentation}
+      \field{urlday}{1}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Example gallery — seaborn 0.13.2 documentation:C\:\\Users\\Phil\\Zotero\\storage\\LK8DB7WP\\index.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://seaborn.pydata.org/examples/index.html
+      \endverb
+      \verb{url}
+      \verb https://seaborn.pydata.org/examples/index.html
       \endverb
     \endentry
     \entry{i7_intel_2024}{online}{}{}
@@ -371,6 +413,25 @@
       \endverb
       \keyw{Big data,Tools,Big Data,Business,Computer architecture,Data analysis,data analytics,Data mining,distributed computing,Internet of Things,Sensors,smart city}
     \endentry
+    \entry{noauthor_matplotlib_nodate}{online}{}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labeltitlesource}{title}
+      \field{title}{Matplotlib — Visualization with Python}
+      \field{urlday}{1}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Matplotlib — Visualization with Python:C\:\\Users\\Phil\\Zotero\\storage\\33LEW4CX\\matplotlib.org.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://matplotlib.org/
+      \endverb
+      \verb{url}
+      \verb https://matplotlib.org/
+      \endverb
+    \endentry
     \entry{noauthor_microsoft_nodate}{online}{}{}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
@@ -505,6 +566,25 @@
       \endverb
       \verb{url}
       \verb https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html#pandas.DataFrame
+      \endverb
+    \endentry
+    \entry{noauthor_plot_nodate}{online}{}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeltitlesource}{title}
+      \field{title}{Plot types — Matplotlib 3.9.3 documentation}
+      \field{urlday}{1}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Plot types — Matplotlib 3.9.3 documentation:C\:\\Users\\Phil\\Zotero\\storage\\EAS77XXK\\index.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://matplotlib.org/stable/plot_types/index.html
+      \endverb
+      \verb{url}
+      \verb https://matplotlib.org/stable/plot_types/index.html
       \endverb
     \endentry
     \entry{noauthor_popular_nodate}{online}{}{}
@@ -665,6 +745,56 @@
       \endverb
       \verb{url}
       \verb https://db-engines.com/en/system/SQLite
+      \endverb
+    \endentry
+    \entry{waskom_seaborn_2021}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=9f118467e509f7d2d04cfbdb8d33accf}{%
+           family={Waskom},
+           familyi={W\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{9f118467e509f7d2d04cfbdb8d33accf}
+      \strng{fullhash}{9f118467e509f7d2d04cfbdb8d33accf}
+      \strng{fullhashraw}{9f118467e509f7d2d04cfbdb8d33accf}
+      \strng{bibnamehash}{9f118467e509f7d2d04cfbdb8d33accf}
+      \strng{authorbibnamehash}{9f118467e509f7d2d04cfbdb8d33accf}
+      \strng{authornamehash}{9f118467e509f7d2d04cfbdb8d33accf}
+      \strng{authorfullhash}{9f118467e509f7d2d04cfbdb8d33accf}
+      \strng{authorfullhashraw}{9f118467e509f7d2d04cfbdb8d33accf}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{6}
+      \field{issn}{2475-9066}
+      \field{journaltitle}{Journal of Open Source Software}
+      \field{month}{4}
+      \field{number}{60}
+      \field{shortjournal}{{JOSS}}
+      \field{shorttitle}{seaborn}
+      \field{title}{seaborn: statistical data visualization}
+      \field{urlday}{1}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{volume}{6}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{3021}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.21105/joss.03021
+      \endverb
+      \verb{file}
+      \verb Volltext:C\:\\Users\\Phil\\Zotero\\storage\\PBWKXXMF\\Waskom - 2021 - seaborn statistical data visualization.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://joss.theoj.org/papers/10.21105/joss.03021
+      \endverb
+      \verb{url}
+      \verb https://joss.theoj.org/papers/10.21105/joss.03021
       \endverb
     \endentry
   \enddatalist

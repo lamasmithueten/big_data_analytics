@@ -2403,7 +2403,12 @@
     <bcf:citekey order="28" intorder="1">noauthor_pandasdataframe_nodate</bcf:citekey>
     <bcf:citekey order="29" intorder="1">noauthor_5_nodate</bcf:citekey>
     <bcf:citekey order="30" intorder="1">adegeo_regular_2022</bcf:citekey>
-    <bcf:citekey order="31" intorder="2" nocite="1">*</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">noauthor_matplotlib_nodate</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">waskom_seaborn_2021</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">noauthor_data_nodate</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">noauthor_plot_nodate</bcf:citekey>
+    <bcf:citekey order="34" intorder="2">noauthor_example_nodate</bcf:citekey>
+    <bcf:citekey order="35" intorder="2" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
