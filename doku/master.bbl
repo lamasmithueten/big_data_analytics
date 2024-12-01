@@ -19,6 +19,28 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global/global}
+    \entry{noauthor_5_nodate}{online}{}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This chapter describes some things you’ve learned about already in more detail, and adds some new things as well. More on Lists: The list data type has some more methods. Here are all of the method...}
+      \field{langid}{english}
+      \field{title}{5. Data Structures}
+      \field{titleaddon}{Python documentation}
+      \field{urlday}{1}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Phil\\Zotero\\storage\\TT7NP7KC\\datastructures.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://docs.python.org/3/tutorial/datastructures.html
+      \endverb
+      \verb{url}
+      \verb https://docs.python.org/3/tutorial/datastructures.html
+      \endverb
+    \endentry
     \entry{noauthor_51_2024}{online}{}{}
       \field{sortinit}{5}
       \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
@@ -43,6 +65,45 @@
       \endverb
       \verb{url}
       \verb https://www.postgresql.org/docs/17/ddl-basics.html
+      \endverb
+    \endentry
+    \entry{adegeo_regular_2022}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=9ecd74085a04ef7487f1cde27f0a0cec}{%
+           family={adegeo},
+           familyi={a\bibinitperiod}}}%
+      }
+      \strng{namehash}{9ecd74085a04ef7487f1cde27f0a0cec}
+      \strng{fullhash}{9ecd74085a04ef7487f1cde27f0a0cec}
+      \strng{fullhashraw}{9ecd74085a04ef7487f1cde27f0a0cec}
+      \strng{bibnamehash}{9ecd74085a04ef7487f1cde27f0a0cec}
+      \strng{authorbibnamehash}{9ecd74085a04ef7487f1cde27f0a0cec}
+      \strng{authornamehash}{9ecd74085a04ef7487f1cde27f0a0cec}
+      \strng{authorfullhash}{9ecd74085a04ef7487f1cde27f0a0cec}
+      \strng{authorfullhashraw}{9ecd74085a04ef7487f1cde27f0a0cec}
+      \field{sortinit}{a}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this quick reference, learn to use regular expression patterns to match input text. A pattern has one or more character literals, operators, or constructs.}
+      \field{day}{18}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{title}{Regular Expression Language - Quick Reference - .{NET}}
+      \field{urlday}{1}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Phil\\Zotero\\storage\\GKAY45ML\\regular-expression-language-quick-reference.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://learn.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-language-quick-reference
+      \endverb
+      \verb{url}
+      \verb https://learn.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-language-quick-reference
       \endverb
     \endentry
     \entry{noauthor_awk1_nodate}{online}{}{}
@@ -504,6 +565,28 @@
       \endverb
       \verb{url}
       \verb https://www.postgresql.org/about/
+      \endverb
+    \endentry
+    \entry{noauthor_python_nodate}{online}{}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The official home of the Python Programming Language}
+      \field{langid}{english}
+      \field{title}{Python Release Python 3.12.7}
+      \field{titleaddon}{Python.org}
+      \field{urlday}{1}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Phil\\Zotero\\storage\\7YPFNFDM\\python-3127.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.python.org/downloads/release/python-3127/
+      \endverb
+      \verb{url}
+      \verb https://www.python.org/downloads/release/python-3127/
       \endverb
     \endentry
     \entry{noauthor_python-dotenv_nodate}{software}{}{}

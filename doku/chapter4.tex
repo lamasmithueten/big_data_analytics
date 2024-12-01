@@ -1,10 +1,10 @@
 % !TEX root =  master.tex
 \chapter{Visualisieren der Daten (Phil Richter)}
 Nach der Bereinigung und dem Speichern der Daten in einer Datenbank, wie in den vorherigen Kapiteln beschrieben, können die Daten visualisiert werden. Dafür wird als Grundlage
-die Programmiersprache Python verwendet. Diese ist vorallem im Bereich der Datenanalyse und -visualisierung sehr weit verbreitet \cite{noauthor_most_nodate, noauthor_popular_nodate}.
-Eine alternative Möglichkeit wäre die Verwendung von R, welches ebenfalls sehr weit verbreitet ist und speziell für die Datenanalyse entwickelt wurde \cite{noauthor_r_nodate}.
-Zudem wurde R bereits für die Säuberung der Daten, wie im Kapitel \ref{chap:säubern} beschrieben, verwendet. Da im Team allerdings mehr Erfahrung mit Python vorhanden war,
-wurde sich bei der Visualsierung für die Verwendung von Python entschieden.
+die Programmiersprache Python mit der Version 3.12.7 verwendet \cite{noauthor_python_nodate}. Diese ist vorallem im Bereich der Datenanalyse und -visualisierung sehr weit
+verbreitet \cite{noauthor_most_nodate, noauthor_popular_nodate}. Eine alternative Möglichkeit wäre die Verwendung von R, welches ebenfalls sehr weit verbreitet ist und speziell
+für die Datenanalyse entwickelt wurde \cite{noauthor_r_nodate}. Zudem wurde R bereits für die Säuberung der Daten, wie im Kapitel \ref{chap:säubern} beschrieben, verwendet.
+Da im Team allerdings mehr Erfahrung mit Python vorhanden war, wurde sich bei der Visualsierung für die Verwendung von Python entschieden.
 
 Für das Laden und Visualisiern der Daten werden folgende Packages verwendet:
 \begin{table}[h!]
@@ -99,10 +99,10 @@ gemacht. Der Code dazu sieht wie folgt aus:
     df['generation'] = df['produktsortiment'].apply(extract_generation) 
 \end{lstlisting}
 
-Im Code wird zuerst ein Dictionary \textit{number\_words} definiert, welches die Zahlenwörter auf die entsprechende Zahl abbildet.
+Im Code wird zuerst ein Dictionary \cite{noauthor_5_nodate} \textit{number\_words} definiert, welches die Zahlenwörter auf die entsprechende Zahl abbildet.
 Anschließend wird die Funktion \textit{extract\_generation} definiert, welche einen String als Parameter erwartet und die Prozessor-Generation aus dem Text extrahiert.
 Dabei wird zuerst mit Hilfe eines regulären Ausdrucks, faslls vorhanden, die numerische Generation extrahiert. Ein regulärer Ausdruck ist dabei eine Zeichenkette,
-die ein bestimmtes Suchmuster für ein gegebenen String definiert.
+die ein bestimmtes Suchmuster für ein gegebenen String definiert \cite{adegeo_regular_2022}.
 Der in der Funktion verwendete reguläre Ausdruck "\textit{(\textbackslash d+)(?:\.|th)?\textbackslash s?Gen}" sucht nach einer Zahl gefolgt von einem Punkt oder \textit{th},
 sowie einem Leerzeichen und den Buchstaben \textit{Gen}. Falls dabei ein übereinstimmender Text gefunden wird, wird dieser zurückgegeben. Anderenfalls wird
 überprüft, ob eines der im Dictionary definierten Wörter im Text vorkommt. Falls ja, wird die entsprechende Zahl zurückgegeben.

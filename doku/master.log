@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.30)  1 DEC 2024 21:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.30)  1 DEC 2024 21:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1035,7 +1035,7 @@ chapter 5.
 [13]
 
 [14]
-<img/Scatterplot_Grundtaktfrequenz_vs_Turbotaktfrequenz.png, id=326, 613.0905pt x 399.4122pt>
+<img/Scatterplot_Grundtaktfrequenz_vs_Turbotaktfrequenz.png, id=332, 613.0905pt x 399.4122pt>
 File: img/Scatterplot_Grundtaktfrequenz_vs_Turbotaktfrequenz.png Graphic file (type png)
 <use img/Scatterplot_Grundtaktfrequenz_vs_Turbotaktfrequenz.png>
 Package pdftex.def Info: img/Scatterplot_Grundtaktfrequenz_vs_Turbotaktfrequenz.png  used on input line 120.
@@ -1106,17 +1106,17 @@ Package logreq Info: Writing requests to 'master.run.xml'.
 ### simple group (level 1) entered at line 40 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 29675 strings out of 473681
- 587589 string characters out of 5719670
- 1807995 words of memory out of 5000000
- 52165 multiletter control sequences out of 15000+600000
+ 29687 strings out of 473681
+ 588154 string characters out of 5719670
+ 1808185 words of memory out of 5000000
+ 52174 multiletter control sequences out of 15000+600000
  573532 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,20n,107p,10985b,2316s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi450\ecss0800.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss1200.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1000.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0800.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsi1200.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx2488.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1200.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1728.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1440.pk> <C:\Users\Phil\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk>
-Output written on master.pdf (25 pages, 644588 bytes).
+Output written on master.pdf (25 pages, 647870 bytes).
 PDF statistics:
- 1104 PDF objects out of 1200 (max. 8388607)
- 241 named destinations out of 1000 (max. 500000)
+ 1117 PDF objects out of 1200 (max. 8388607)
+ 244 named destinations out of 1000 (max. 500000)
  197 words of extra memory for PDF output out of 10000 (max. 10000000)
 
