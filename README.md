@@ -2,7 +2,7 @@
 
 ## Projektbeschreibung
 
-In diesem Projekt haben wir Prozessordaten aller Intel i7-Prozessoren bereinigt, gespeichert und analysiert. Z
+In diesem Projekt haben wir Prozessordaten aller Intel i7-Prozessoren bereinigt, gespeichert und analysiert.
 
 ### Hauptschritte:
 1. **Datenbereinigung**: Prozessordaten wurden in `R` bereinigt und aufbereitet.
